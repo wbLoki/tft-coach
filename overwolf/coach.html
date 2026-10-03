@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; connect-src https://raw.githubusercontent.com">
+  <title>TFT Coach</title>
+  <link rel="stylesheet" href="coach.css">
+</head>
+<body>
+  <form id="controls">
+    <label><input type="radio" name="strategy" value="auto" checked> auto</label>
+    <label><input type="radio" name="strategy" value="standard"> standard</label>
+    <label><input type="radio" name="strategy" value="reroll1"> reroll1</label>
+    <label><input type="radio" name="strategy" value="reroll2"> reroll2</label>
+    <label><input type="radio" name="strategy" value="reroll3"> reroll3</label>
+    <label class="gap"><input type="checkbox" name="hit"> 3-stars hit</label>
+    <label><input type="checkbox" name="lock"> lock comp</label>
+    <!-- Extra board slots beyond your level: Tactician's Cape / Crown, or augments that add team size. -->
+    <label class="right">extra slots
+      <select name="extraSlots">
+        <option value="0">none</option>
+        <option value="1">+1 (Tactician's Cape / Crown)</option>
+        <option value="2">+2</option>
+        <option value="3">+3</option>
+      </select>
+    </label>
+  </form>
+
+  <div id="status">Starting...</div>
+  <div id="note"></div>
+
+  <main>
+    <section class="wide"><h2>What to do now</h2><div id="advice"></div></section>
+    <section><h2>On your board</h2><div id="board"></div></section>
+    <section><h2>On your bench</h2><div id="bench"></div></section>
+    <section class="wide"><h2>Put on board</h2><div id="field"></div></section>
+    <section><h2>Look for</h2><div id="find"></div></section>
+    <section><h2>Items to prioritise</h2><div id="items"></div></section>
+    <section class="wide small"><h2>Comps</h2><div id="comps"></div></section>
+  </main>
+
+  <script type="module" src="coach.js"></script>
+</body>
+</html>

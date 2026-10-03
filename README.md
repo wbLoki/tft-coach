@@ -262,9 +262,39 @@ To check a resolution, take a full-screen screenshot during the planning phase a
 It prints every field it reads (stage, level, XP, gold, streak, HP, traits, shop). If a field is wrong or
 empty, adjust that region in `REGIONS` in `reader.py`.
 
+## Overwolf version (work in progress)
+
+`overwolf/` holds a port of the coach to a standalone [Overwolf Electron](https://dev.overwolf.com/ow-electron/)
+app. Instead of reading the screen, it gets the exact game state from Overwolf's
+[TFT game events](https://dev.overwolf.com/ow-electron/live-game-data-gep/supported-games/teamfight-tactics/):
+gold, level, HP, your board and bench with star levels and items, the shop, your item bench, and the board
+of each opponent you fight. So there is no OCR, no bench tracking to correct, and no emblems to tick.
+
+It uses the same meta: at startup it downloads the published `meta.json` and `static.json`, plus
+`data/set_data.json` from `main`, and keeps the last copy for when it is offline. Augment data is
+deliberately not used: Riot doesn't allow third-party apps to show it.
+
+```powershell
+cd overwolf
+npm install
+npm start        # run the app
+npm test         # logic tests (plain Node)
+npm run build    # installer in overwolf\dist
+```
+
+The window opens without any setup, but **the game events only load for approved Overwolf developers**:
+
+- While developing, set `OW_CLI_EMAIL` and `OW_CLI_API_KEY` (or `OW_DEV_KEY`) from your Overwolf developer
+  console. Without them the app runs and stays on "Waiting for a TFT game".
+- A distributed build must be code-signed (`OW_BUILD_KEY` at build time), or the game events don't load.
+
+It has not been run against a real game yet, so the game-event handling in `main.js` and `src/session.js` is
+written from Overwolf's documentation and type definitions and still needs checking in play.
+
 ## Development
 
 ```
+overwolf/        Overwolf Electron port: main.js, preload.cjs, window (coach.*), logic (src/), tests (test/)
 tft_coach/
   live.py      the coach window and per-game state (board, bench, scouting)
   reader.py    screen reading: regions, OCR, trait panel, player list

@@ -1,0 +1,43 @@
+{
+  "name": "tft-coach",
+  "productName": "TFT Coach",
+  "version": "0.1.0",
+  "description": "Econ, comp and board advice for Teamfight Tactics, from the live game state.",
+  "author": {
+    "name": "wbLoki"
+  },
+  "private": true,
+  "type": "module",
+  "main": "main.js",
+  "overwolf": {
+    "packages": [
+      "gep"
+    ]
+  },
+  "scripts": {
+    "start": "ow-electron .",
+    "build": "ow-electron-builder --publish=never",
+    "test": "node --test"
+  },
+  "build": {
+    "appId": "com.wbloki.tft-coach",
+    "files": [
+      "main.js",
+      "preload.cjs",
+      "coach.html",
+      "coach.css",
+      "coach.js",
+      "src/**",
+      "icons/**"
+    ],
+    "win": {
+      "target": "nsis",
+      "icon": "icons/launcher.ico"
+    }
+  },
+  "devDependencies": {
+    "@overwolf/ow-electron": "^42.11.4",
+    "@overwolf/ow-electron-builder": "^26.9.3",
+    "@overwolf/ow-electron-packages-types": "^1.1.12"
+  }
+}
