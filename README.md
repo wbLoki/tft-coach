@@ -102,6 +102,23 @@ roughly 6 minutes with a personal key's rate limit), plus unit and item names fr
 .venv\Scripts\python -m tft_coach.live
 ```
 
+### Without a terminal
+
+To build a standalone `.exe` you can double-click, pin to the taskbar or copy to another PC:
+
+```powershell
+.venv\Scripts\python -m pip install pyinstaller
+.venv\Scripts\python -m PyInstaller tft_coach.spec --noconfirm
+```
+
+This writes `dist\TFT Coach.exe` (about 100 MB). It needs neither Python nor this folder, and takes a few
+seconds to open because it unpacks itself first. The code is baked in at build time, so run the build again
+after changing it. The meta data is baked in too, but only as an offline fallback: the exe downloads the
+published meta each time it starts. Your `.env` is not included.
+
+For a launcher that never needs rebuilding, `.venv\Scripts\python -m pip install -e .` creates
+`.venv\Scripts\tft-coach.exe`, which runs the code in this folder (this machine only).
+
 Start it before or during a game. It reads your screen about once a second. Until it sees the gold and
 level bar at the bottom of the screen, it shows "Waiting for a game".
 
@@ -150,7 +167,14 @@ Scouting information is as fresh as your last look at that board.
 
 ## Keeping the meta data fresh
 
-Re-run the meta build after each patch or every few days:
+**Automatically.** The [meta workflow](.github/workflows/meta.yml) rebuilds the meta every 6 hours from the
+latest Challenger games and publishes `meta.json` and `static.json` on the `meta` branch. The coach
+downloads them at startup when they are newer than its local copy, and keeps the local copy if it is
+offline. The workflow needs a repository secret named `RIOT_API_KEY` holding a personal key, and only runs
+from the default branch. It publishes EUW data; on another server (`RIOT_PLATFORM` in `.env`) the coach
+ignores it and uses the meta you build yourself.
+
+**By hand.** Re-run the meta build after each patch or every few days:
 
 ```powershell
 .venv\Scripts\python -m tft_coach.meta              # download new matches and rebuild
@@ -159,6 +183,9 @@ Re-run the meta build after each patch or every few days:
 
 Downloaded matches are cached in `data/matches/`, so later runs only fetch new games. When the API key
 has expired, the script says so; paste a new one into `.env`.
+
+The standalone exe carries its own copy of the meta data, which it only uses when it can't download the
+published one. Rebuild it (see [Without a terminal](#without-a-terminal)) to refresh that fallback.
 
 ## How it works
 
@@ -250,6 +277,9 @@ data/
   meta.json      built meta comps (generated)
   static.json    unit, trait and item names from CommunityDragon (generated)
 tests/           unit tests
+tft_coach.spec   PyInstaller recipe for the standalone exe
+run_live.py      entry script the exe starts from
+pyproject.toml   package metadata; defines the tft-coach launcher
 ```
 
 Run the tests with:

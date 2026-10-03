@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tft-coach"
+version = "0.1.0"
+requires-python = ">=3.10"
+dependencies = ["mss", "pillow", "rapidocr-onnxruntime"]
+
+# Installing the project creates .venv\Scripts\tft-coach.exe, a windowed launcher (no console).
+[project.gui-scripts]
+tft-coach = "tft_coach.live:main"
+
+[tool.setuptools]
+packages = ["tft_coach"]

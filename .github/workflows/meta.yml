@@ -1,0 +1,39 @@
+# Rebuilds the meta from fresh Challenger matches and publishes it on the `meta` branch,
+# where the coach downloads it at startup (PUBLISHED_URL in tft_coach/meta.py).
+# Needs a repository secret RIOT_API_KEY holding a personal key (dev keys expire after 24h).
+name: Refresh meta
+
+on:
+  schedule:
+    - cron: "17 */6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency: meta
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      # No match cache: every run starts from the players' latest games, so old patches drop out.
+      - name: Build meta
+        run: python -m tft_coach.meta
+        env:
+          RIOT_API_KEY: ${{ secrets.RIOT_API_KEY }}
+      - name: Publish to the meta branch
+        working-directory: data
+        run: |
+          git init -q -b meta
+          git add -f meta.json static.json
+          git -c user.name="github-actions[bot]" -c user.email="41898282+github-actions[bot]@users.noreply.github.com" \
+            commit -qm "Meta $(date -u '+%Y-%m-%d %H:%M') UTC"
+          git push -f "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" meta
+        env:
+          GITHUB_TOKEN: ${{ github.token }}

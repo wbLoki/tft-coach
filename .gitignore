@@ -4,6 +4,12 @@
 # Python
 .venv/
 __pycache__/
+*.egg-info/
+build/
+dist/
+
+# Launcher (points at this machine's .venv; rebuild with: pip install -e .)
+/*.exe
 
 # Generated data (rebuild with: python -m tft_coach.meta)
 data/matches/
