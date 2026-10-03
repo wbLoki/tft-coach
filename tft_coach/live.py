@@ -412,5 +412,9 @@ class App:
                 time.sleep(POLL_SECONDS)
 
 
-if __name__ == "__main__":
+def main():
     App().root.mainloop()
+
+
+if __name__ == "__main__":
+    main()

@@ -102,6 +102,22 @@ roughly 6 minutes with a personal key's rate limit), plus unit and item names fr
 .venv\Scripts\python -m tft_coach.live
 ```
 
+### Without a terminal
+
+To build a standalone `.exe` you can double-click, pin to the taskbar or copy to another PC:
+
+```powershell
+.venv\Scripts\python -m pip install pyinstaller
+.venv\Scripts\python -m PyInstaller tft_coach.spec --noconfirm
+```
+
+This writes `dist\TFT Coach.exe` (about 100 MB). It needs neither Python nor this folder, and takes a few
+seconds to open because it unpacks itself first. The code and the meta data are baked in at build time, so
+run the build again after changing the code or refreshing the meta. Your `.env` is not included.
+
+For a launcher that never needs rebuilding, `.venv\Scripts\python -m pip install -e .` creates
+`.venv\Scripts\tft-coach.exe`, which runs the code in this folder (this machine only).
+
 Start it before or during a game. It reads your screen about once a second. Until it sees the gold and
 level bar at the bottom of the screen, it shows "Waiting for a game".
 
@@ -159,6 +175,9 @@ Re-run the meta build after each patch or every few days:
 
 Downloaded matches are cached in `data/matches/`, so later runs only fetch new games. When the API key
 has expired, the script says so; paste a new one into `.env`.
+
+If you use the standalone exe, rebuild it afterwards (see [Without a terminal](#without-a-terminal)): it
+carries its own copy of the meta data.
 
 ## How it works
 
@@ -250,6 +269,9 @@ data/
   meta.json      built meta comps (generated)
   static.json    unit, trait and item names from CommunityDragon (generated)
 tests/           unit tests
+tft_coach.spec   PyInstaller recipe for the standalone exe
+run_live.py      entry script the exe starts from
+pyproject.toml   package metadata; defines the tft-coach launcher
 ```
 
 Run the tests with:

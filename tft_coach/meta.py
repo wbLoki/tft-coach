@@ -33,7 +33,8 @@ MIN_GAMES = 15
 CORE_UNIT_FREQ = 0.25  # units kept per comp; the less common ones only fill out the board
 RARITY_TO_COST = {0: 1, 1: 2, 2: 3, 4: 4, 6: 5}
 
-ENV = dict(l.strip().split("=", 1) for l in (ROOT / ".env").read_text().splitlines() if "=" in l)
+ENV_FILE = ROOT / ".env"  # absent in the packaged exe, which only reads the data files
+ENV = dict(l.strip().split("=", 1) for l in ENV_FILE.read_text().splitlines() if "=" in l) if ENV_FILE.exists() else {}
 PLATFORM = ENV.get("RIOT_PLATFORM", "euw1")
 REGION = ENV.get("RIOT_REGION", "europe")
 
