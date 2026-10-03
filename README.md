@@ -112,8 +112,9 @@ To build a standalone `.exe` you can double-click, pin to the taskbar or copy to
 ```
 
 This writes `dist\TFT Coach.exe` (about 100 MB). It needs neither Python nor this folder, and takes a few
-seconds to open because it unpacks itself first. The code and the meta data are baked in at build time, so
-run the build again after changing the code or refreshing the meta. Your `.env` is not included.
+seconds to open because it unpacks itself first. The code is baked in at build time, so run the build again
+after changing it. The meta data is baked in too, but only as an offline fallback: the exe downloads the
+published meta each time it starts. Your `.env` is not included.
 
 For a launcher that never needs rebuilding, `.venv\Scripts\python -m pip install -e .` creates
 `.venv\Scripts\tft-coach.exe`, which runs the code in this folder (this machine only).
@@ -166,7 +167,14 @@ Scouting information is as fresh as your last look at that board.
 
 ## Keeping the meta data fresh
 
-Re-run the meta build after each patch or every few days:
+**Automatically.** The [meta workflow](.github/workflows/meta.yml) rebuilds the meta every 6 hours from the
+latest Challenger games and publishes `meta.json` and `static.json` on the `meta` branch. The coach
+downloads them at startup when they are newer than its local copy, and keeps the local copy if it is
+offline. The workflow needs a repository secret named `RIOT_API_KEY` holding a personal key, and only runs
+from the default branch. It publishes EUW data; on another server (`RIOT_PLATFORM` in `.env`) the coach
+ignores it and uses the meta you build yourself.
+
+**By hand.** Re-run the meta build after each patch or every few days:
 
 ```powershell
 .venv\Scripts\python -m tft_coach.meta              # download new matches and rebuild
@@ -176,8 +184,8 @@ Re-run the meta build after each patch or every few days:
 Downloaded matches are cached in `data/matches/`, so later runs only fetch new games. When the API key
 has expired, the script says so; paste a new one into `.env`.
 
-If you use the standalone exe, rebuild it afterwards (see [Without a terminal](#without-a-terminal)): it
-carries its own copy of the meta data.
+The standalone exe carries its own copy of the meta data, which it only uses when it can't download the
+published one. Rebuild it (see [Without a terminal](#without-a-terminal)) to refresh that fallback.
 
 ## How it works
 

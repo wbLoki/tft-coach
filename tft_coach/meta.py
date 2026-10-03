@@ -3,9 +3,12 @@
 Run: .venv\\Scripts\\python -m tft_coach.meta            (fetch new matches, then rebuild)
      .venv\\Scripts\\python -m tft_coach.meta --no-fetch (rebuild from cached matches only)
 
-Needs RIOT_API_KEY in .env. Optional: RIOT_PLATFORM (default euw1), RIOT_REGION (default europe).
+Needs RIOT_API_KEY in .env or the environment. Optional: RIOT_PLATFORM (default euw1), RIOT_REGION (default europe).
+
+.github/workflows/meta.yml runs this on a schedule and publishes the result; the coach picks it up with update().
 """
 import json
+import os
 import re
 import statistics
 import sys
@@ -21,6 +24,8 @@ META_FILE = ROOT / "data" / "meta.json"
 STATIC_FILE = ROOT / "data" / "static.json"
 SET_DATA = json.loads((ROOT / "data" / "set_data.json").read_text())
 CDRAGON_URL = "https://raw.communitydragon.org/latest/cdragon/tft/en_us.json"
+PUBLISHED_URL = "https://raw.githubusercontent.com/wbLoki/tft-coach/meta/"  # branch written by the meta workflow
+UPDATE_TIMEOUT = 10
 MIN_ITEM_SAMPLES = 10
 PLACEHOLDER_MAX_COST = 3
 PLACEHOLDERS_KEPT = 8
@@ -34,7 +39,9 @@ CORE_UNIT_FREQ = 0.25  # units kept per comp; the less common ones only fill out
 RARITY_TO_COST = {0: 1, 1: 2, 2: 3, 4: 4, 6: 5}
 
 ENV_FILE = ROOT / ".env"  # absent in the packaged exe, which only reads the data files
-ENV = dict(l.strip().split("=", 1) for l in ENV_FILE.read_text().splitlines() if "=" in l) if ENV_FILE.exists() else {}
+ENV = dict(os.environ)
+if ENV_FILE.exists():
+    ENV.update(l.strip().split("=", 1) for l in ENV_FILE.read_text().splitlines() if "=" in l)
 PLATFORM = ENV.get("RIOT_PLATFORM", "euw1")
 REGION = ENV.get("RIOT_REGION", "europe")
 
@@ -73,6 +80,23 @@ def fetch():
             (MATCH_DIR / f"{m}.json").write_text(json.dumps(match))
         print(f"\rmatches {i}/{len(todo)}", end="", flush=True)
     print()
+
+
+def update() -> bool:
+    """Swaps in the published meta if it is newer than the local one. Offline or unpublished: keeps the local files."""
+    try:
+        files = {f: urllib.request.urlopen(PUBLISHED_URL + f.name, timeout=UPDATE_TIMEOUT).read()
+                 for f in (META_FILE, STATIC_FILE)}
+        local = json.loads(META_FILE.read_text())["built"] if META_FILE.exists() else ""
+        published = json.loads(files[META_FILE])
+        if published["platform"] != PLATFORM or published["built"] <= local:  # another server's meta: keep your own
+            return False
+        json.loads(files[STATIC_FILE])  # don't replace good files with a broken download
+    except (OSError, ValueError, KeyError):
+        return False
+    for f, content in files.items():
+        f.write_bytes(content)
+    return True
 
 
 def display(api_name: str) -> str:

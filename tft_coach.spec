@@ -1,7 +1,8 @@
 # Builds dist\TFT Coach.exe:  .venv\Scripts\python -m PyInstaller tft_coach.spec --noconfirm
 from PyInstaller.utils.hooks import collect_data_files, collect_submodules
 
-# The data files are baked in, so rebuild after refreshing the meta. Matches and .env stay out.
+# The data files are baked in as the offline fallback; the exe downloads the published meta at startup.
+# Matches and .env stay out.
 datas = [(f"data/{name}", "data") for name in ("set_data.json", "meta.json", "static.json")]
 # RapidOCR loads its detector/recogniser modules by name at run time, from its own folder on sys.path:
 # ship the sources along with the models, and list the submodules so their dependencies are found.

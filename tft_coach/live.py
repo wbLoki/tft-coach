@@ -11,7 +11,7 @@ from dataclasses import replace
 import mss
 from PIL import Image
 
-from . import comps
+from . import comps, meta
 from .advisor import HOLD_LEVEL, GameState, advise
 from .econ import parse_stage
 from .reader import is_augment_choice, read_players, read_shop, read_state, read_traits
@@ -390,6 +390,7 @@ class App:
         self.extra_slots.set(0)
 
     def worker(self):
+        meta.update()  # in the worker so the window opens without waiting on the download
         session = self.session = Session(comps.load())
         with mss.mss() as sct:
             primary = next(m for m in sct.monitors[1:] if m["left"] == 0 and m["top"] == 0)
