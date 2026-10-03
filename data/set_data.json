@@ -1,0 +1,31 @@
+{
+  "_note": "Values change between sets and patches. VERIFY against the current patch notes before trusting the advice.",
+  "xp_to_next_level": { "1": 2, "2": 2, "3": 6, "4": 10, "5": 20, "6": 36, "7": 48, "8": 76, "9": 84 },
+  "shop_odds": {
+    "1": [100, 0, 0, 0, 0],
+    "2": [100, 0, 0, 0, 0],
+    "3": [75, 25, 0, 0, 0],
+    "4": [55, 30, 15, 0, 0],
+    "5": [45, 33, 20, 2, 0],
+    "6": [30, 40, 25, 5, 0],
+    "7": [19, 30, 40, 10, 1],
+    "8": [17, 24, 32, 24, 3],
+    "9": [15, 18, 25, 30, 12],
+    "10": [5, 10, 20, 40, 25]
+  },
+  "copies_per_unit": [30, 25, 18, 10, 9],
+  "units_per_cost": [14, 13, 13, 13, 8],
+  "tank_items": ["GargoyleStoneplate", "WarmogsArmor", "SpiritVisage", "ProtectorsVow", "SteadfastHeart", "DragonsClaw",
+                 "BrambleVest", "SunfireCape", "IonicSpark", "Evenshroud", "Redemption", "SteraksGage", "TitansResolve"],
+  "frontline_traits": ["Defender", "Juggernaut", "Vanguard", "Brawler"],
+  "max_level": 10,
+  "xp_per_buy": 4,
+  "xp_buy_cost": 4,
+  "reroll_cost": 2,
+  "shop_slots": 5,
+  "interest_per": 10,
+  "interest_cap": 5,
+  "base_income": 5,
+  "streak_gold": [[6, 3], [5, 2], [3, 1]],
+  "level_tempo": { "4": "2-1", "5": "2-5", "6": "3-2", "7": "4-1", "8": "4-5", "9": "5-5", "10": "6-2" }
+}

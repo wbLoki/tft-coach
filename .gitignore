@@ -1,0 +1,14 @@
+# Secrets
+.env
+
+# Python
+.venv/
+__pycache__/
+
+# Generated data (rebuild with: python -m tft_coach.meta)
+data/matches/
+data/meta.json
+data/static.json
+
+# Local screenshots used for calibration (they show other players' names)
+/*.png
