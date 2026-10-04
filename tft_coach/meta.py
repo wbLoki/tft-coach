@@ -115,7 +115,7 @@ def load_static(set_number: int) -> dict:
     """Real names, costs and unit traits from CommunityDragon, cached in data/static.json."""
     if STATIC_FILE.exists():
         static = json.loads(STATIC_FILE.read_text())
-        if static["set"] == set_number and "recipes" in static:
+        if static["set"] == set_number and "recipes" in static and "icons" in static:
             return static
     req = urllib.request.Request(CDRAGON_URL, headers={"User-Agent": "tft-coach/0.1"})
     data = json.load(urllib.request.urlopen(req, timeout=180))
@@ -127,6 +127,9 @@ def load_static(set_number: int) -> dict:
         "traits": {t["apiName"]: t["name"] for t in tft_set["traits"]},
         "items": {i["apiName"]: i["name"] for i in data["items"] if i.get("name")},
     }
+    # Unit or item apiName -> game asset path of its icon, for apps that draw the board.
+    static["icons"] = {c["apiName"]: c["tileIcon"] for c in tft_set["champions"] if c.get("tileIcon")}
+    static["icons"].update((i["apiName"], i["icon"]) for i in data["items"] if i.get("name") and i.get("icon"))
     # Completed item name -> the two components it is built from.
     static["recipes"] = {i["name"]: [static["items"].get(c, c) for c in i["composition"]]
                          for i in data["items"] if i.get("name") and len(i.get("composition") or []) == 2}
