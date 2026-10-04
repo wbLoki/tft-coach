@@ -1,0 +1,5771 @@
+{
+ "set": 18,
+ "platform": "euw1",
+ "matches": 233,
+ "boards": 1855,
+ "built": "2026-10-04 12:35",
+ "comps": [
+  {
+   "name": "Inferno + Riftbeast",
+   "games": 22,
+   "play_rate": 0.012,
+   "avg_place": 3.41,
+   "top4": 0.64,
+   "level": 9,
+   "strategy": "standard",
+   "traits": {
+    "Greenfather": 1,
+    "Inferno": 2,
+    "Riftbeast": 3,
+    "Vanguard": 2,
+    "Emerald Aspect": 1,
+    "Juggernaut": 2,
+    "Apex Predator": 1
+   },
+   "units": [
+    {
+     "name": "Elder Dragon",
+     "cost": 5,
+     "freq": 1.0,
+     "three_star_rate": 0.0,
+     "front": false,
+     "item_avg": 2.9,
+     "items": [
+      "Infinity Edge",
+      "Last Whisper",
+      "Sterak's Gage"
+     ]
+    },
+    {
+     "name": "Sentinel",
+     "cost": 4,
+     "freq": 0.95,
+     "three_star_rate": 0.0,
+     "front": true,
+     "item_avg": 0.8,
+     "items": []
+    },
+    {
+     "name": "Amumu",
+     "cost": 4,
+     "freq": 0.95,
+     "three_star_rate": 0.0,
+     "front": true,
+     "item_avg": 1.0,
+     "items": []
+    },
+    {
+     "name": "Kennen",
+     "cost": 5,
+     "freq": 0.91,
+     "three_star_rate": 0.0,
+     "front": false,
+     "item_avg": 1.6,
+     "items": []
+    },
+    {
+     "name": "Maokai",
+     "cost": 5,
+     "freq": 0.91,
+     "three_star_rate": 0.0,
+     "front": true,
+     "item_avg": 1.7,
+     "items": [
+      "Gargoyle Stoneplate",
+      "Warmogs Armor",
+      "Spirit Visage"
+     ]
+    },
+    {
+     "name": "Taric",
+     "cost": 5,
+     "freq": 0.86,
+     "three_star_rate": 0.0,
+     "front": true,
+     "item_avg": 1.2,
+     "items": [
+      "Gargoyle Stoneplate"
+     ]
+    },
+    {
+     "name": "Ivern",
+     "cost": 5,
+     "freq": 0.73,
+     "three_star_rate": 0.0,
+     "front": false,
+     "item_avg": 1.0,
+     "items": []
+    },
+    {
+     "name": "Draven",
+     "cost": 5,
+     "freq": 0.5,
+     "three_star_rate": 0.0,
+     "front": false,
+     "item_avg": 2.8,
+     "items": [
+      "Guinsoo's Rageblade",
+      "Kraken's Fury",
+      "Last Whisper"
+     ]
+    },
+    {
+     "name": "Ashe",
+     "cost": 5,
+     "freq": 0.36,
+     "three_star_rate": 0.0,
+     "front": false,
+     "item_avg": 2.6,
+     "items": [
+      "Red Buff",
+      "Last Whisper",
+      "Spear of Shojin"
+     ]
+    }
+   ],
+   "early": [
+    {
+     "name": "Scuttlecrab",
+     "cost": 2,
+     "shares": [
+      "Riftbeast",
+      "Juggernaut"
+     ],
+     "front": true,
+     "score": 5
+    },
+    {
+     "name": "Rakan",
+     "cost": 1,
+     "shares": [
+      "Juggernaut",
+      "Vanguard"
+     ],
+     "front": true,
+     "score": 4
+    },
+    {
+     "name": "Cinderling",
+     "cost": 1,
+     "shares": [
+      "Riftbeast"
+     ],
+     "front": false,
+     "score": 3
+    },
+    {
+     "name": "Pebbles",
+     "cost": 1,
+     "shares": [
+      "Riftbeast"
+     ],
+     "front": false,
+     "score": 3
+    },
+    {
+     "name": "Gromp",
+     "cost": 2,
+     "shares": [
+      "Riftbeast"
+     ],
+     "front": false,
+     "score": 3
+    },
+    {
+     "name": "Murkwolf",
+     "cost": 2,
+     "shares": [
+      "Riftbeast"
+     ],
+     "front": false,
+     "score": 3
+    },
+    {
+     "name": "Krug",
+     "cost": 3,
+     "shares": [
+      "Riftbeast"
+     ],
+     "front": true,
+     "score": 3
+    },
+    {
+     "name": "Mama Beak",
+     "cost": 3,
+     "shares": [
+      "Riftbeast"
+     ],
+     "front": false,
+     "score": 3
+    }
+   ]
+  },
+  {
+   "name": "Adaptor + Riftbeast",
+   "games": 18,
+   "play_rate": 0.01,
+   "avg_place": 3.67,
+   "top4": 0.61,
+   "level": 9,
+   "strategy": "standard",
+   "traits": {
+    "Adaptor": 2,
+    "Invoker": 2,
+    "Primal": 2,
+    "Riftbeast": 3,
+    "Vanguard": 2,
+    "Caustic": 1,
+    "Juggernaut": 2,
+    "Rapidfire": 2,
+    "Lunar": 2
+   },
+   "units": [
+    {
+     "name": "Nidalee",
+     "cost": 4,
+     "freq": 1.0,
+     "three_star_rate": 0.0,
+     "front": false,
+     "item_avg": 3.0,
+     "items": [
+      "Infinity Edge",
+      "Sterak's Gage",
+      "Spear of Shojin"
+     ]
+    },
+    {
+     "name": "Sentinel",
+     "cost": 4,
+     "freq": 0.94,
+     "three_star_rate": 0.0,
+     "front": true,
+     "item_avg": 2.2,
+     "items": [
+      "Protector's Vow",
+      "Crownguard"
+     ]
+    },
+    {
+     "name": "Kog'Maw",
+     "cost": 3,
+     "freq": 0.94,
+     "three_star_rate": 0.0,
+     "front": false,
+     "item_avg": 0.6,
+     "items": []
+    },
+    {
+     "name": "Scuttlecrab",
+     "cost": 2,
+     "freq": 0.61,
+     "three_star_rate": 0.0,
+     "front": true,
+     "item_avg": 0.1,
+     "items": []
+    },
+    {
+     "name": "Vi",
+     "cost": 3,
+     "freq": 0.56,
+     "three_star_rate": 0.0,
+     "front": true,
+     "item_avg": 1.6,
+     "items": []
+    },
+    {
+     "name": "Amumu",
+     "cost": 4,
+     "freq": 0.5,
+     "three_star_rate": 0.0,
+     "front": true,
+     "item_avg": 2.0,
+     "items": [
+      "Steadfast Heart",
+      "Gargoyle Stoneplate",
+      "Dragon's Claw"
+     ]
+    },
+    {
+     "name": "Diana",
+     "cost": 3,
+     "freq": 0.5,
+     "three_star_rate": 0.0,
+     "front": true,
+     "item_avg": 0.0,
+     "items": []
+    },
+    {
+     "name": "Aphelios",
+     "cost": 4,
+     "freq": 0.5,
+     "three_star_rate": 0.11,
+     "front": false,
+     "item_avg": 2.8,
+     "items": [
+      "Kraken's Fury",
+      "Guinsoo's Rageblade",
+      "Infinity Edge"
+     ]
+    },
+    {
+     "name": "Sivir",
+     "cost": 4,
+     "freq": 0.44,
+     "three_star_rate": 0.0,
+     "front": false,
+     "item_avg": 2.4,
+     "items": [
+      "Infinity Edge",
+      "Red Buff",
+      "Kraken's Fury"
+     ]
+    },
+    {
+     "name": "Cinderling",
+     "cost": 1,
+     "freq": 0.33,
+     "three_star_rate": 0.0,
+     "front": false,
+     "item_avg": 0.3,
+     "items": []
+    },
+    {
+     "name": "Mama Beak",
+     "cost": 3,
+     "freq": 0.33,
+     "three_star_rate": 0.0,
+     "front": false,
+     "item_avg": 0.0,
+     "items": []
+    },
+    {
+     "name": "Taric",
+     "cost": 5,
+     "freq": 0.33,
+     "three_star_rate": 0.0,
+     "front": true,
+     "item_avg": 1.2,
+     "items": [
+      "Crownguard"
+     ]
+    },
+    {
+     "name": "Varus",
+     "cost": 1,
+     "freq": 0.28,
+     "three_star_rate": 0.0,
+     "front": false,
+     "item_avg": 0.2,
+     "items": []
+    }
+   ],
+   "early": [
+    {
+     "name": "Pebbles",
+     "cost": 1,
+     "shares": [
+      "Riftbeast",
+      "Invoker"
+     ],
+     "front": false,
+     "score": 5
+    },
+    {
+     "name": "Gromp",
+     "cost": 2,
+     "shares": [
+      "Riftbeast",
+      "Adaptor"
+     ],
+     "front": false,
+     "score": 5
+    },
+    {
+     "name": "Mama Beak",
+     "cost": 3,
+     "shares": [
+      "Riftbeast",
+      "Rapidfire"
+     ],
+     "front": false,
+     "score": 5
+    },
+    {
+     "name": "Rakan",
+     "cost": 1,
+     "shares": [
+      "Juggernaut",
+      "Vanguard"
+     ],
+     "front": true,
+     "score": 4
+    },
+    {
+     "name": "Cinderling",
+     "cost": 1,
+     "shares": [
+      "Riftbeast"
+     ],
+     "front": false,
+     "score": 3
+    },
+    {
+     "name": "Murkwolf",
+     "cost": 2,
+     "shares": [
+      "Riftbeast"
+     ],
+     "front": false,
+     "score": 3
+    },
+    {
+     "name": "Krug",
+     "cost": 3,
+     "shares": [
+      "Riftbeast"
+     ],
+     "front": true,
+     "score": 3
+    },
+    {
+     "name": "Akali",
+     "cost": 1,
+     "shares": [
+      "Adaptor"
+     ],
+     "front": false,
+     "score": 2
+    }
+   ]
+  },
+  {
+   "name": "Inferno + Juggernaut",
+   "games": 58,
+   "play_rate": 0.031,
+   "avg_place": 3.76,
+   "top4": 0.64,
+   "level": 9,
+   "strategy": "standard",
+   "traits": {
+    "Inferno": 2,
+    "Primal": 2,
+    "Juggernaut": 6,
+    "Summoner": 2
+   },
+   "units": [
+    {
+     "name": "Amumu",
+     "cost": 4,
+     "freq": 0.98,
+     "three_star_rate": 0.0,
+     "front": true,
+     "item_avg": 1.6,
+     "items": [
+      "Gargoyle Stoneplate"
+     ]
+    },
+    {
+     "name": "Vi",
+     "cost": 3,
+     "freq": 0.95,
+     "three_star_rate": 0.0,
+     "front": true,
+     "item_avg": 1.0,
+     "items": []
+    },
+    {
+     "name": "Maokai",
+     "cost": 5,
+     "freq": 0.84,
+     "three_star_rate": 0.0,
+     "front": true,
+     "item_avg": 2.0,
+     "items": [
+      "Gargoyle Stoneplate",
+      "Warmogs Armor",
+      "Spirit Visage"
+     ]
+    },
+    {
+     "name": "Kennen",
+     "cost": 5,
+     "freq": 0.78,
+     "three_star_rate": 0.0,
+     "front": false,
+     "item_avg": 2.4,
+     "items": [
+      "Void Staff"
+     ]
+    },
+    {
+     "name": "Yorick",
+     "cost": 1,
+     "freq": 0.67,
+     "three_star_rate": 0.0,
+     "front": true,
+     "item_avg": 0.2,
+     "items": []
+    },
+    {
+     "name": "Zyra",
+     "cost": 4,
+     "freq": 0.57,
+     "three_star_rate": 0.0,
+     "front": false,
+     "item_avg": 2.9,
+     "items": [
+      "Archangel's Staff",
+      "Hextech Gunblade",
+      "Spear of Shojin"
+     ]
+    },
+    {
+     "name": "Rakan",
+     "cost": 1,
+     "freq": 0.57,
+     "three_star_rate": 0.0,
+     "front": true,
+     "item_avg": 0.0,
+     "items": []
+    },
+    {
+     "name": "Scuttlecrab",
+     "cost": 2,
+     "freq": 0.53,
+     "three_star_rate": 0.0,
+     "front": true,
+     "item_avg": 0.1,
+     "items": []
+    },
+    {
+     "name": "Ivern",
+     "cost": 5,
+     "freq": 0.47,
+     "three_star_rate": 0.0,
+     "front": false,
+     "item_avg": 2.2,
+     "items": [
+      "Archangel's Staff",
+      "Void Staff"
+     ]
+    },
+    {
+     "name": "Sejuani",
+     "cost": 2,
+     "freq": 0.36,
+     "three_star_rate": 0.0,
+     "front": true,
+     "item_avg": 0.4,
+     "items": []
+    },
+    {
+     "name": "Sivir",
+     "cost": 4,
+     "freq": 0.34,
+     "three_star_rate": 0.0,
+     "front": false,
+     "item_avg": 1.4,
+     "items": [
+      "Giant Slayer"
+     ]
+    },
+    {
+     "name": "Lux",
+     "cost": 5,
+     "freq": 0.28,
+     "three_star_rate": 0.0,
+     "front": false,
+     "item_avg": 2.2,
+     "items": [
+      "Spear of Shojin",
+      "Rabadon's Deathcap",
+      "Void Staff"
+     ]
+    },
+    {
+     "name": "Ashe",
+     "cost": 5,
+     "freq": 0.26,
+     "three_star_rate": 0.0,
+     "front": false,
+     "item_avg": 2.8,
+     "items": [
+      "Inferno Emblem",
+      "Spear of Shojin",
+      "Red Buff"
+     ]
+    }
+   ],
+   "early": [
+    {
+     "name": "Sejuani",
+     "cost": 2,
+     "shares": [
+      "Juggernaut"
+     ],
+     "front": true,
+     "score": 6
+    },
+    {
+     "name": "Akali",
+     "cost": 1,
+     "shares": [
+      "Inferno"
+     ],
+     "front": false,
+     "score": 2
+    },
+    {
+     "name": "Varus",
+     "cost": 1,
+     "shares": [
+      "Inferno"
+     ],
+     "front": false,
+     "score": 2
+    },
+    {
+     "name": "Shen",
+     "cost": 2,
+     "shares": [
+      "Inferno"
+     ],
+     "front": true,
+     "score": 2
+    },
+    {
+     "name": "Azir",
+     "cost": 3,
+     "shares": [
+      "Summoner"
+     ],
+     "front": false,
+     "score": 2
+    },
+    {
+     "name": "Mama Beak",
+     "cost": 3,
+     "shares": [
+      "Summoner"
+     ],
+     "front": false,
+     "score": 2
+    }
+   ]
+  },
+  {
+   "name": "Hunter + Juggernaut",
+   "games": 101,
+   "play_rate": 0.054,
+   "avg_place": 3.97,
+   "top4": 0.55,
+   "level": 9,
+   "strategy": "standard",
+   "traits": {
+    "Hunter": 2,
+    "Primal": 2,
+    "Juggernaut": 6
+   },
+   "units": [
+    {
+     "name": "Sivir",
+     "cost": 4,
+     "freq": 0.98,
+     "three_star_rate": 0.0,
+     "front": false,
+     "item_avg": 1.9,
+     "items": [
+      "Infinity Edge"
+     ]
+    },
+    {
+     "name": "Vi",
+     "cost": 3,
+     "freq": 0.98,
+     "three_star_rate": 0.0,
+     "front": true,
+     "item_avg": 0.8,
+     "items": []
+    },
+    {
+     "name": "Amumu",
+     "cost": 4,
+     "freq": 0.86,
+     "three_star_rate": 0.0,
+     "front": true,
+     "item_avg": 1.9,
+     "items": [
+      "Gargoyle Stoneplate",
+      "Warmogs Armor"
+     ]
+    },
+    {
+     "name": "Ashe",
+     "cost": 5,
+     "freq": 0.8,
+     "three_star_rate": 0.0,
+     "front": false,
+     "item_avg": 2.4,
+     "items": [
+      "Spear of Shojin",
+      "Last Whisper",
+      "Infinity Edge"
+     ]
+    },
+    {
+     "name": "Maokai",
+     "cost": 5,
+     "freq": 0.72,
+     "three_star_rate": 0.0,
+     "front": true,
+     "item_avg": 1.7,
+     "items": [
+      "Gargoyle Stoneplate"
+     ]
+    },
+    {
+     "name": "Rakan",
+     "cost": 1,
+     "freq": 0.69,
+     "three_star_rate": 0.01,
+     "front": true,
+     "item_avg": 0.1,
+     "items": []
+    },
+    {
+     "name": "Scuttlecrab",
+     "cost": 2,
+     "freq": 0.63,
+     "three_star_rate": 0.16,
+     "front": true,
+     "item_avg": 0.6,
+     "items": []
+    },
+    {
+     "name": "Yorick",
+     "cost": 1,
+     "freq": 0.56,
+     "three_star_rate": 0.02,
+     "front": true,
+     "item_avg": 0.1,
+     "items": []
+    },
+    {
+     "name": "Sejuani",
+     "cost": 2,
+     "freq": 0.52,
+     "three_star_rate": 0.25,
+     "front": true,
+     "item_avg": 0.8,
+     "items": []
+    },
+    {
+     "name": "Zyra",
+     "cost": 4,
+     "freq": 0.4,
+     "three_star_rate": 0.0,
+     "front": false,
+     "item_avg": 2.7,
+     "items": [
+      "Archangel's Staff",
+      "Hextech Gunblade",
+      "Spear of Shojin"
+     ]
+    },
+    {
+     "name": "Ivern",
+     "cost": 5,
+     "freq": 0.39,
+     "three_star_rate": 0.0,
+     "front": false,
+     "item_avg": 1.5,
+     "items": []
+    }
+   ],
+   "early": [
+    {
+     "name": "Cinderling",
+     "cost": 1,
+     "shares": [
+      "Hunter"
+     ],
+     "front": false,
+     "score": 2
+    },
+    {
+     "name": "Caitlyn",
+     "cost": 2,
+     "shares": [
+      "Hunter"
+     ],
+     "front": false,
+     "score": 2
+    },
+    {
+     "name": "Tristana",
+     "cost": 3,
+     "shares": [
+      "Hunter"
+     ],
+     "front": false,
+     "score": 2
+    }
+   ]
+  },
+  {
+   "name": "Executioner + Summoner",
+   "games": 44,
+   "play_rate": 0.024,
+   "avg_place": 4,
+   "top4": 0.59,
+   "level": 8,
+   "strategy": "standard",
+   "traits": {
+    "Monolith": 1,
+    "Blackthorn": 2,
+    "Executioner": 4,
+    "Summoner": 3,
+    "Flora Fatalis": 2,
+    "Juggernaut": 2,
+    "Inferno": 2
+   },
+   "units": [
+    {
+     "name": "Yorick",
+     "cost": 1,
+     "freq": 1.0,
+     "three_star_rate": 0.0,
+     "front": true,
+     "item_avg": 0.1,
+     "items": []
+    },
+    {
+     "name": "Zyra",
+     "cost": 4,
+     "freq": 1.0,
+     "three_star_rate": 0.0,
+     "front": false,
+     "item_avg": 2.3,
+     "items": [
+      "Executioner Emblem",
+      "Void Staff",
+      "Spear of Shojin"
+     ]
+    },
+    {
+     "name": "Azir",
+     "cost": 3,
+     "freq": 1.0,
+     "three_star_rate": 0.11,
+     "front": false,
+     "item_avg": 1.0,
+     "items": []
+    },
+    {
+     "name": "Malphite",
+     "cost": 4,
+     "freq": 0.93,
+     "three_star_rate": 0.0,
+     "front": true,
+     "item_avg": 2.9,
+     "items": [
+      "Gargoyle Stoneplate",
+      "Crownguard",
+      "Warmogs Armor"
+     ]
+    },
+    {
+     "name": "Soraka",
+     "cost": 4,
+     "freq": 0.93,
+     "three_star_rate": 0.0,
+     "front": false,
+     "item_avg": 2.5,
+     "items": [
+      "Rabadon's Deathcap",
+      "Spear of Shojin"
+     ]
+    },
+    {
+     "name": "Kennen",
+     "cost": 5,
+     "freq": 0.77,
+     "three_star_rate": 0.0,
+     "front": false,
+     "item_avg": 2.1,
+     "items": []
+    },
+    {
+     "name": "Fiddlesticks",
+     "cost": 3,
+     "freq": 0.75,
+     "three_star_rate": 0.0,
+     "front": true,
+     "item_avg": 0.3,
+     "items": []
+    },
+    {
+     "name": "Amumu",
+     "cost": 4,
+     "freq": 0.73,
+     "three_star_rate": 0.0,
+     "front": true,
+     "item_avg": 0.8,
+     "items": []
+    },
+    {
+     "name": "Ezreal",
+     "cost": 4,
+     "freq": 0.32,
+     "three_star_rate": 0.0,
+     "front": false,
+     "item_avg": 1.9,
+     "items": []
+    }
+   ],
+   "early": [
+    {
+     "name": "Yunara",
+     "cost": 2,
+     "shares": [
+      "Executioner"
+     ],
+     "front": false,
+     "score": 4
+    },
+    {
+     "name": "Mama Beak",
+     "cost": 3,
+     "shares": [
+      "Summoner"
+     ],
+     "front": false,
+     "score": 3
+    },
+    {
+     "name": "Akali",
+     "cost": 1,
+     "shares": [
+      "Inferno"
+     ],
+     "front": false,
+     "score": 2
+    },
+    {
+     "name": "Rakan",
+     "cost": 1,
+     "shares": [
+      "Juggernaut"
+     ],
+     "front": true,
+     "score": 2
+    },
+    {
+     "name": "Rek'Sai",
+     "cost": 1,
+     "shares": [
+      "Blackthorn"
+     ],
+     "front": true,
+     "score": 2
+    },
+    {
+     "name": "Varus",
+     "cost": 1,
+     "shares": [
+      "Inferno"
+     ],
+     "front": false,
+     "score": 2
+    },
+    {
+     "name": "Veigar",
+     "cost": 1,
+     "shares": [
+      "Blackthorn"
+     ],
+     "front": false,
+     "score": 2
+    },
+    {
+     "name": "Scuttlecrab",
+     "cost": 2,
+     "shares": [
+      "Juggernaut"
+     ],
+     "front": true,
+     "score": 2
+    }
+   ]
+  },
+  {
+   "name": "Adaptor + Primal",
+   "games": 18,
+   "play_rate": 0.01,
+   "avg_place": 4.06,
+   "top4": 0.56,
+   "level": 9,
+   "strategy": "standard",
+   "traits": {
+    "Adaptor": 2,
+    "Inferno": 2,
+    "Invoker": 2,
+    "Lunar": 2,
+    "Primal": 4,
+    "Rapidfire": 2,
+    "Vanguard": 2,
+    "Caustic": 1,
+    "Juggernaut": 2
+   },
+   "units": [
+    {
+     "name": "Nidalee",
+     "cost": 4,
+     "freq": 1.0,
+     "three_star_rate": 0.0,
+     "front": false,
+     "item_avg": 2.8,
+     "items": [
+      "Infinity Edge",
+      "Sterak's Gage",
+      "Spear of Shojin"
+     ]
+    },
+    {
+     "name": "Kog'Maw",
+     "cost": 3,
+     "freq": 1.0,
+     "three_star_rate": 0.0,
+     "front": false,
+     "item_avg": 0.2,
+     "items": []
+    },
+    {
+     "name": "Vi",
+     "cost": 3,
+     "freq": 0.94,
+     "three_star_rate": 0.0,
+     "front": true,
+     "item_avg": 0.4,
+     "items": []
+    },
+    {
+     "name": "Sentinel",
+     "cost": 4,
+     "freq": 0.89,
+     "three_star_rate": 0.0,
+     "front": true,
+     "item_avg": 2.1,
+     "items": [
+      "Protector's Vow",
+      "Steadfast Heart",
+      "Warmogs Armor"
+     ]
+    },
+    {
+     "name": "Amumu",
+     "cost": 4,
+     "freq": 0.83,
+     "three_star_rate": 0.0,
+     "front": true,
+     "item_avg": 1.7,
+     "items": [
+      "Warmogs Armor",
+      "Spirit Visage",
+      "Dragon's Claw"
+     ]
+    },
+    {
+     "name": "Aphelios",
+     "cost": 4,
+     "freq": 0.78,
+     "three_star_rate": 0.0,
+     "front": false,
+     "item_avg": 3.0,
+     "items": [
+      "Deathblade",
+      "Guinsoo's Rageblade",
+      "Kraken's Fury"
+     ]
+    },
+    {
+     "name": "Lux",
+     "cost": 5,
+     "freq": 0.72,
+     "three_star_rate": 0.0,
+     "front": false,
+     "item_avg": 1.2,
+     "items": []
+    },
+    {
+     "name": "Diana",
+     "cost": 3,
+     "freq": 0.72,
+     "three_star_rate": 0.0,
+     "front": true,
+     "item_avg": 0.6,
+     "items": []
+    },
+    {
+     "name": "Varus",
+     "cost": 1,
+     "freq": 0.72,
+     "three_star_rate": 0.0,
+     "front": false,
+     "item_avg": 0.3,
+     "items": []
+    },
+    {
+     "name": "Sivir",
+     "cost": 4,
+     "freq": 0.33,
+     "three_star_rate": 0.0,
+     "front": false,
+     "item_avg": 0.8,
+     "items": [
+      "Infinity Edge",
+      "Last Whisper"
+     ]
+    }
+   ],
+   "early": [
+    {
+     "name": "Akali",
+     "cost": 1,
+     "shares": [
+      "Inferno",
+      "Adaptor"
+     ],
+     "front": false,
+     "score": 4
+    },
+    {
+     "name": "Rakan",
+     "cost": 1,
+     "shares": [
+      "Juggernaut",
+      "Vanguard"
+     ],
+     "front": true,
+     "score": 4
+    },
+    {
+     "name": "Pebbles",
+     "cost": 1,
+     "shares": [
+      "Invoker"
+     ],
+     "front": false,
+     "score": 2
+    },
+    {
+     "name": "Xayah",
+     "cost": 1,
+     "shares": [
+      "Rapidfire"
+     ],
+     "front": false,
+     "score": 2
+    },
+    {
+     "name": "Yorick",
+     "cost": 1,
+     "shares": [
+      "Juggernaut"
+     ],
+     "front": true,
+     "score": 2
+    },
+    {
+     "name": "Elise",
+     "cost": 2,
+     "shares": [
+      "Vanguard"
+     ],
+     "front": true,
+     "score": 2
+    },
+    {
+     "name": "Gromp",
+     "cost": 2,
+     "shares": [
+      "Adaptor"
+     ],
+     "front": false,
+     "score": 2
+    },
+    {
+     "name": "Kayle",
+     "cost": 2,
+     "shares": [
+      "Rapidfire"
+     ],
+     "front": false,
+     "score": 2
+    }
+   ]
+  },
+  {
+   "name": "Executioner + Flora Fatalis",
+   "games": 98,
+   "play_rate": 0.053,
+   "avg_place": 4.12,
+   "top4": 0.57,
+   "level": 8,
+   "strategy": "standard",
+   "traits": {
+    "Defender": 2,
+    "Executioner": 4,
+    "Spellweaver": 2,
+    "Flora Fatalis": 2
+   },
+   "units": [
+    {
+     "name": "Soraka",
+     "cost": 4,
+     "freq": 0.99,
+     "three_star_rate": 0.01,
+     "front": false,
+     "item_avg": 1.8,
+     "items": []
+    },
+    {
+     "name": "Fiddlesticks",
+     "cost": 3,
+     "freq": 0.96,
+     "three_star_rate": 0.06,
+     "front": true,
+     "item_avg": 0.8,
+     "items": []
+    },
+    {
+     "name": "Ezreal",
+     "cost": 4,
+     "freq": 0.62,
+     "three_star_rate": 0.0,
+     "front": false,
+     "item_avg": 2.1,
+     "items": [
+      "Deathblade",
+      "Spear of Shojin",
+      "Last Whisper"
+     ]
+    },
+    {
+     "name": "Azir",
+     "cost": 3,
+     "freq": 0.56,
+     "three_star_rate": 0.29,
+     "front": false,
+     "item_avg": 1.7,
+     "items": [
+      "Hextech Gunblade",
+      "Guinsoo's Rageblade"
+     ]
+    },
+    {
+     "name": "Kennen",
+     "cost": 5,
+     "freq": 0.46,
+     "three_star_rate": 0.0,
+     "front": false,
+     "item_avg": 2.5,
+     "items": [
+      "Edge of Night"
+     ]
+    },
+    {
+     "name": "Ornn",
+     "cost": 1,
+     "freq": 0.38,
+     "three_star_rate": 0.0,
+     "front": true,
+     "item_avg": 0.0,
+     "items": []
+    },
+    {
+     "name": "Zyra",
+     "cost": 4,
+     "freq": 0.34,
+     "three_star_rate": 0.0,
+     "front": false,
+     "item_avg": 2.4,
+     "items": [
+      "Executioner Emblem",
+      "Void Staff",
+      "Spear of Shojin"
+     ]
+    },
+    {
+     "name": "Yunara",
+     "cost": 2,
+     "freq": 0.33,
+     "three_star_rate": 0.03,
+     "front": false,
+     "item_avg": 0.2,
+     "items": []
+    },
+    {
+     "name": "Sett",
+     "cost": 4,
+     "freq": 0.31,
+     "three_star_rate": 0.0,
+     "front": true,
+     "item_avg": 2.7,
+     "items": [
+      "Gargoyle Stoneplate",
+      "Warmogs Armor"
+     ]
+    },
+    {
+     "name": "Ahri",
+     "cost": 4,
+     "freq": 0.29,
+     "three_star_rate": 0.0,
+     "front": false,
+     "item_avg": 2.4,
+     "items": [
+      "Spear of Shojin",
+      "Executioner Emblem",
+      "Jeweled Gauntlet"
+     ]
+    },
+    {
+     "name": "Malphite",
+     "cost": 4,
+     "freq": 0.28,
+     "three_star_rate": 0.0,
+     "front": true,
+     "item_avg": 3.0,
+     "items": [
+      "Gargoyle Stoneplate",
+      "Warmogs Armor",
+      "Crownguard"
+     ]
+    }
+   ],
+   "early": [
+    {
+     "name": "Yunara",
+     "cost": 2,
+     "shares": [
+      "Executioner"
+     ],
+     "front": false,
+     "score": 4
+    },
+    {
+     "name": "Karma",
+     "cost": 1,
+     "shares": [
+      "Spellweaver"
+     ],
+     "front": false,
+     "score": 2
+    },
+    {
+     "name": "Leona",
+     "cost": 1,
+     "shares": [
+      "Defender"
+     ],
+     "front": true,
+     "score": 2
+    },
+    {
+     "name": "Ornn",
+     "cost": 1,
+     "shares": [
+      "Defender"
+     ],
+     "front": true,
+     "score": 2
+    },
+    {
+     "name": "Veigar",
+     "cost": 1,
+     "shares": [
+      "Spellweaver"
+     ],
+     "front": false,
+     "score": 2
+    },
+    {
+     "name": "LeBlanc",
+     "cost": 2,
+     "shares": [
+      "Spellweaver"
+     ],
+     "front": false,
+     "score": 2
+    },
+    {
+     "name": "Shen",
+     "cost": 2,
+     "shares": [
+      "Defender"
+     ],
+     "front": true,
+     "score": 2
+    },
+    {
+     "name": "Cassiopeia",
+     "cost": 3,
+     "shares": [
+      "Spellweaver"
+     ],
+     "front": false,
+     "score": 2
+    }
+   ]
+  },
+  {
+   "name": "Juggernaut + Riftbeast",
+   "games": 23,
+   "play_rate": 0.012,
+   "avg_place": 4.13,
+   "top4": 0.57,
+   "level": 9,
+   "strategy": "standard",
+   "traits": {
+    "Primal": 2,
+    "Riftbeast": 3,
+    "Juggernaut": 4,
+    "Hunter": 2,
+    "Apex Predator": 1
+   },
+   "units": [
+    {
+     "name": "Scuttlecrab",
+     "cost": 2,
+     "freq": 0.91,
+     "three_star_rate": 0.0,
+     "front": true,
+     "item_avg": 0.0,
+     "items": []
+    },
+    {
+     "name": "Elder Dragon",
+     "cost": 5,
+     "freq": 0.87,
+     "three_star_rate": 0.0,
+     "front": false,
+     "item_avg": 3.0,
+     "items": [
+      "Infinity Edge",
+      "Sterak's Gage",
+      "Deathblade"
+     ]
+    },
+    {
+     "name": "Amumu",
+     "cost": 4,
+     "freq": 0.83,
+     "three_star_rate": 0.0,
+     "front": true,
+     "item_avg": 1.3,
+     "items": [
+      "Gargoyle Stoneplate",
+      "Warmogs Armor"
+     ]
+    },
+    {
+     "name": "Vi",
+     "cost": 3,
+     "freq": 0.83,
+     "three_star_rate": 0.0,
+     "front": false,
+     "item_avg": 0.7,
+     "items": []
+    },
+    {
+     "name": "Maokai",
+     "cost": 5,
+     "freq": 0.83,
+     "three_star_rate": 0.0,
+     "front": true,
+     "item_avg": 1.9,
+     "items": [
+      "Gargoyle Stoneplate",
+      "Warmogs Armor"
+     ]
+    },
+    {
+     "name": "Ashe",
+     "cost": 5,
+     "freq": 0.65,
+     "three_star_rate": 0.0,
+     "front": false,
+     "item_avg": 2.7,
+     "items": [
+      "Red Buff",
+      "Last Whisper",
+      "Spear of Shojin"
+     ]
+    },
+    {
+     "name": "Sivir",
+     "cost": 4,
+     "freq": 0.57,
+     "three_star_rate": 0.0,
+     "front": false,
+     "item_avg": 1.0,
+     "items": []
+    },
+    {
+     "name": "Ivern",
+     "cost": 5,
+     "freq": 0.43,
+     "three_star_rate": 0.0,
+     "front": false,
+     "item_avg": 1.1,
+     "items": [
+      "Adaptive Helm"
+     ]
+    },
+    {
+     "name": "Kennen",
+     "cost": 5,
+     "freq": 0.43,
+     "three_star_rate": 0.0,
+     "front": false,
+     "item_avg": 1.2,
+     "items": [
+      "Edge of Night"
+     ]
+    },
+    {
+     "name": "Rakan",
+     "cost": 1,
+     "freq": 0.39,
+     "three_star_rate": 0.0,
+     "front": true,
+     "item_avg": 0.0,
+     "items": []
+    },
+    {
+     "name": "Taric",
+     "cost": 5,
+     "freq": 0.3,
+     "three_star_rate": 0.0,
+     "front": true,
+     "item_avg": 0.9,
+     "items": [
+      "Sunfire Cape"
+     ]
+    }
+   ],
+   "early": [
+    {
+     "name": "Cinderling",
+     "cost": 1,
+     "shares": [
+      "Riftbeast",
+      "Hunter"
+     ],
+     "front": false,
+     "score": 5
+    },
+    {
+     "name": "Rakan",
+     "cost": 1,
+     "shares": [
+      "Juggernaut"
+     ],
+     "front": true,
+     "score": 4
+    },
+    {
+     "name": "Yorick",
+     "cost": 1,
+     "shares": [
+      "Juggernaut"
+     ],
+     "front": true,
+     "score": 4
+    },
+    {
+     "name": "Sejuani",
+     "cost": 2,
+     "shares": [
+      "Juggernaut"
+     ],
+     "front": true,
+     "score": 4
+    },
+    {
+     "name": "Pebbles",
+     "cost": 1,
+     "shares": [
+      "Riftbeast"
+     ],
+     "front": false,
+     "score": 3
+    },
+    {
+     "name": "Gromp",
+     "cost": 2,
+     "shares": [
+      "Riftbeast"
+     ],
+     "front": false,
+     "score": 3
+    },
+    {
+     "name": "Murkwolf",
+     "cost": 2,
+     "shares": [
+      "Riftbeast"
+     ],
+     "front": false,
+     "score": 3
+    },
+    {
+     "name": "Krug",
+     "cost": 3,
+     "shares": [
+      "Riftbeast"
+     ],
+     "front": true,
+     "score": 3
+    }
+   ]
+  },
+  {
+   "name": "Blackthorn + Executioner",
+   "games": 22,
+   "play_rate": 0.012,
+   "avg_place": 4.14,
+   "top4": 0.59,
+   "level": 8,
+   "strategy": "reroll2",
+   "traits": {
+    "Blackthorn": 4,
+    "Brawler": 2,
+    "Executioner": 3,
+    "Ravager": 2
+   },
+   "units": [
+    {
+     "name": "Azir",
+     "cost": 3,
+     "freq": 1.0,
+     "three_star_rate": 0.0,
+     "front": false,
+     "item_avg": 1.2,
+     "items": []
+    },
+    {
+     "name": "Rek'Sai",
+     "cost": 1,
+     "freq": 0.86,
+     "three_star_rate": 0.11,
+     "front": true,
+     "item_avg": 0.6,
+     "items": []
+    },
+    {
+     "name": "Warwick",
+     "cost": 2,
+     "freq": 0.73,
+     "three_star_rate": 0.75,
+     "front": true,
+     "item_avg": 2.6,
+     "items": [
+      "Titan's Resolve",
+      "Sterak's Gage"
+     ]
+    },
+    {
+     "name": "Yunara",
+     "cost": 2,
+     "freq": 0.68,
+     "three_star_rate": 1.0,
+     "front": false,
+     "item_avg": 3.0,
+     "items": [
+      "Blackthorn Emblem",
+      "Spear of Shojin",
+      "Last Whisper"
+     ]
+    },
+    {
+     "name": "Murkwolf",
+     "cost": 2,
+     "freq": 0.64,
+     "three_star_rate": 0.93,
+     "front": false,
+     "item_avg": 0.0,
+     "items": []
+    },
+    {
+     "name": "Alistar",
+     "cost": 2,
+     "freq": 0.59,
+     "three_star_rate": 0.85,
+     "front": true,
+     "item_avg": 2.9,
+     "items": [
+      "Gargoyle Stoneplate",
+      "Crownguard",
+      "Spirit Visage"
+     ]
+    },
+    {
+     "name": "Ezreal",
+     "cost": 4,
+     "freq": 0.59,
+     "three_star_rate": 0.0,
+     "front": false,
+     "item_avg": 1.5,
+     "items": [
+      "Blackthorn Emblem"
+     ]
+    },
+    {
+     "name": "Kennen",
+     "cost": 5,
+     "freq": 0.45,
+     "three_star_rate": 0.0,
+     "front": false,
+     "item_avg": 2.0,
+     "items": []
+    },
+    {
+     "name": "Malphite",
+     "cost": 4,
+     "freq": 0.45,
+     "three_star_rate": 0.0,
+     "front": true,
+     "item_avg": 2.4,
+     "items": [
+      "Gargoyle Stoneplate",
+      "Crownguard",
+      "Spirit Visage"
+     ]
+    },
+    {
+     "name": "Soraka",
+     "cost": 4,
+     "freq": 0.27,
+     "three_star_rate": 0.0,
+     "front": false,
+     "item_avg": 1.0,
+     "items": []
+    }
+   ],
+   "early": [
+    {
+     "name": "Veigar",
+     "cost": 1,
+     "shares": [
+      "Blackthorn"
+     ],
+     "front": false,
+     "score": 4
+    },
+    {
+     "name": "Akali",
+     "cost": 1,
+     "shares": [
+      "Ravager"
+     ],
+     "front": false,
+     "score": 2
+    },
+    {
+     "name": "Camille",
+     "cost": 1,
+     "shares": [
+      "Ravager"
+     ],
+     "front": false,
+     "score": 2
+    },
+    {
+     "name": "Kobuko",
+     "cost": 1,
+     "shares": [
+      "Brawler"
+     ],
+     "front": true,
+     "score": 2
+    },
+    {
+     "name": "Diana",
+     "cost": 3,
+     "shares": [
+      "Ravager"
+     ],
+     "front": true,
+     "score": 2
+    },
+    {
+     "name": "Krug",
+     "cost": 3,
+     "shares": [
+      "Brawler"
+     ],
+     "front": true,
+     "score": 2
+    }
+   ]
+  },
+  {
+   "name": "Elderwood + Executioner",
+   "games": 17,
+   "play_rate": 0.009,
+   "avg_place": 4.24,
+   "top4": 0.53,
+   "level": 9,
+   "strategy": "standard",
+   "traits": {
+    "Elderwood": 5,
+    "Executioner": 3,
+    "Flora Fatalis": 1,
+    "Brawler": 2,
+    "Inferno": 2
+   },
+   "units": [
+    {
+     "name": "Ezreal",
+     "cost": 4,
+     "freq": 0.94,
+     "three_star_rate": 0.0,
+     "front": false,
+     "item_avg": 3.0,
+     "items": [
+      "Deathblade",
+      "Spear of Shojin",
+      "Last Whisper"
+     ]
+    },
+    {
+     "name": "Kennen",
+     "cost": 5,
+     "freq": 0.88,
+     "three_star_rate": 0.0,
+     "front": false,
+     "item_avg": 1.8,
+     "items": [
+      "Elderwood Emblem",
+      "Edge of Night"
+     ]
+    },
+    {
+     "name": "Alistar",
+     "cost": 2,
+     "freq": 0.76,
+     "three_star_rate": 0.0,
+     "front": true,
+     "item_avg": 0.5,
+     "items": []
+    },
+    {
+     "name": "Gnar",
+     "cost": 5,
+     "freq": 0.65,
+     "three_star_rate": 0.0,
+     "front": false,
+     "item_avg": 1.5,
+     "items": [
+      "Thief's Gloves"
+     ]
+    },
+    {
+     "name": "Hecarim",
+     "cost": 3,
+     "freq": 0.59,
+     "three_star_rate": 0.0,
+     "front": true,
+     "item_avg": 1.9,
+     "items": [
+      "Warmogs Armor"
+     ]
+    },
+    {
+     "name": "Soraka",
+     "cost": 4,
+     "freq": 0.59,
+     "three_star_rate": 0.0,
+     "front": false,
+     "item_avg": 1.7,
+     "items": [
+      "Elderwood Emblem"
+     ]
+    },
+    {
+     "name": "Ornn",
+     "cost": 1,
+     "freq": 0.59,
+     "three_star_rate": 0.0,
+     "front": true,
+     "item_avg": 0.0,
+     "items": []
+    },
+    {
+     "name": "LeBlanc",
+     "cost": 2,
+     "freq": 0.47,
+     "three_star_rate": 0.0,
+     "front": false,
+     "item_avg": 0.4,
+     "items": []
+    },
+    {
+     "name": "Amumu",
+     "cost": 4,
+     "freq": 0.35,
+     "three_star_rate": 0.0,
+     "front": true,
+     "item_avg": 0.2,
+     "items": []
+    },
+    {
+     "name": "Taric",
+     "cost": 5,
+     "freq": 0.29,
+     "three_star_rate": 0.0,
+     "front": true,
+     "item_avg": 2.4,
+     "items": [
+      "Elderwood Emblem",
+      "Spirit Visage",
+      "Protector's Vow"
+     ]
+    },
+    {
+     "name": "Lux",
+     "cost": 5,
+     "freq": 0.29,
+     "three_star_rate": 0.0,
+     "front": false,
+     "item_avg": 2.6,
+     "items": [
+      "Spear of Shojin",
+      "Executioner Emblem"
+     ]
+    },
+    {
+     "name": "Maokai",
+     "cost": 5,
+     "freq": 0.29,
+     "three_star_rate": 0.0,
+     "front": true,
+     "item_avg": 2.6,
+     "items": [
+      "Warmogs Armor",
+      "Evenshroud",
+      "Spirit Visage"
+     ]
+    }
+   ],
+   "early": [
+    {
+     "name": "Xayah",
+     "cost": 1,
+     "shares": [
+      "Elderwood"
+     ],
+     "front": false,
+     "score": 5
+    },
+    {
+     "name": "Yunara",
+     "cost": 2,
+     "shares": [
+      "Executioner"
+     ],
+     "front": false,
+     "score": 3
+    },
+    {
+     "name": "Azir",
+     "cost": 3,
+     "shares": [
+      "Executioner"
+     ],
+     "front": false,
+     "score": 3
+    },
+    {
+     "name": "Akali",
+     "cost": 1,
+     "shares": [
+      "Inferno"
+     ],
+     "front": false,
+     "score": 2
+    },
+    {
+     "name": "Kobuko",
+     "cost": 1,
+     "shares": [
+      "Brawler"
+     ],
+     "front": true,
+     "score": 2
+    },
+    {
+     "name": "Rek'Sai",
+     "cost": 1,
+     "shares": [
+      "Brawler"
+     ],
+     "front": true,
+     "score": 2
+    },
+    {
+     "name": "Varus",
+     "cost": 1,
+     "shares": [
+      "Inferno"
+     ],
+     "front": false,
+     "score": 2
+    },
+    {
+     "name": "Shen",
+     "cost": 2,
+     "shares": [
+      "Inferno"
+     ],
+     "front": true,
+     "score": 2
+    }
+   ]
+  },
+  {
+   "name": "Blossom + Spellweaver",
+   "games": 20,
+   "play_rate": 0.011,
+   "avg_place": 4.25,
+   "top4": 0.5,
+   "level": 8,
+   "strategy": "standard",
+   "traits": {
+    "Blossom": 3,
+    "Brawler": 2,
+    "Spellweaver": 4,
+    "Defender": 2,
+    "Flora Fatalis": 1
+   },
+   "units": [
+    {
+     "name": "Karma",
+     "cost": 1,
+     "freq": 0.9,
+     "three_star_rate": 0.11,
+     "front": false,
+     "item_avg": 0.1,
+     "items": []
+    },
+    {
+     "name": "Ahri",
+     "cost": 4,
+     "freq": 0.9,
+     "three_star_rate": 0.0,
+     "front": false,
+     "item_avg": 3.0,
+     "items": [
+      "Jeweled Gauntlet",
+      "Spear of Shojin",
+      "Striker's Flail"
+     ]
+    },
+    {
+     "name": "Sett",
+     "cost": 4,
+     "freq": 0.8,
+     "three_star_rate": 0.0,
+     "front": true,
+     "item_avg": 2.5,
+     "items": [
+      "Gargoyle Stoneplate",
+      "Warmogs Armor"
+     ]
+    },
+    {
+     "name": "Alune",
+     "cost": 5,
+     "freq": 0.65,
+     "three_star_rate": 0.0,
+     "front": false,
+     "item_avg": 2.2,
+     "items": [
+      "Void Staff",
+      "Adaptive Helm"
+     ]
+    },
+    {
+     "name": "Fiddlesticks",
+     "cost": 3,
+     "freq": 0.6,
+     "three_star_rate": 0.0,
+     "front": true,
+     "item_avg": 0.8,
+     "items": []
+    },
+    {
+     "name": "Gnar",
+     "cost": 5,
+     "freq": 0.4,
+     "three_star_rate": 0.0,
+     "front": false,
+     "item_avg": 1.6,
+     "items": [
+      "Edge of Night",
+      "Bloodthirster",
+      "Guinsoo's Rageblade"
+     ]
+    },
+    {
+     "name": "Lillia",
+     "cost": 4,
+     "freq": 0.4,
+     "three_star_rate": 0.0,
+     "front": true,
+     "item_avg": 1.8,
+     "items": [
+      "Spellweaver Emblem",
+      "Ionic Spark",
+      "Warmogs Armor"
+     ]
+    },
+    {
+     "name": "Yorick",
+     "cost": 1,
+     "freq": 0.35,
+     "three_star_rate": 0.14,
+     "front": true,
+     "item_avg": 0.4,
+     "items": []
+    },
+    {
+     "name": "Lux",
+     "cost": 5,
+     "freq": 0.3,
+     "three_star_rate": 0.0,
+     "front": false,
+     "item_avg": 1.7,
+     "items": [
+      "Morellonomicon",
+      "Rabadon's Deathcap",
+      "Void Staff"
+     ]
+    },
+    {
+     "name": "Krug",
+     "cost": 3,
+     "freq": 0.3,
+     "three_star_rate": 0.0,
+     "front": true,
+     "item_avg": 0.5,
+     "items": []
+    },
+    {
+     "name": "LeBlanc",
+     "cost": 2,
+     "freq": 0.3,
+     "three_star_rate": 0.33,
+     "front": false,
+     "item_avg": 0.5,
+     "items": []
+    },
+    {
+     "name": "Ashe",
+     "cost": 5,
+     "freq": 0.25,
+     "three_star_rate": 0.0,
+     "front": false,
+     "item_avg": 1.0,
+     "items": [
+      "Red Buff"
+     ]
+    },
+    {
+     "name": "Taric",
+     "cost": 5,
+     "freq": 0.25,
+     "three_star_rate": 0.0,
+     "front": true,
+     "item_avg": 0.8,
+     "items": []
+    }
+   ],
+   "early": [
+    {
+     "name": "Veigar",
+     "cost": 1,
+     "shares": [
+      "Spellweaver"
+     ],
+     "front": false,
+     "score": 4
+    },
+    {
+     "name": "LeBlanc",
+     "cost": 2,
+     "shares": [
+      "Spellweaver"
+     ],
+     "front": false,
+     "score": 4
+    },
+    {
+     "name": "Cassiopeia",
+     "cost": 3,
+     "shares": [
+      "Spellweaver"
+     ],
+     "front": false,
+     "score": 4
+    },
+    {
+     "name": "Yorick",
+     "cost": 1,
+     "shares": [
+      "Blossom"
+     ],
+     "front": true,
+     "score": 3
+    },
+    {
+     "name": "Yunara",
+     "cost": 2,
+     "shares": [
+      "Blossom"
+     ],
+     "front": false,
+     "score": 3
+    },
+    {
+     "name": "Master Yi",
+     "cost": 3,
+     "shares": [
+      "Blossom"
+     ],
+     "front": false,
+     "score": 3
+    },
+    {
+     "name": "Kobuko",
+     "cost": 1,
+     "shares": [
+      "Brawler"
+     ],
+     "front": true,
+     "score": 2
+    },
+    {
+     "name": "Leona",
+     "cost": 1,
+     "shares": [
+      "Defender"
+     ],
+     "front": true,
+     "score": 2
+    }
+   ]
+  },
+  {
+   "name": "Elderwood + Flora Fatalis",
+   "games": 20,
+   "play_rate": 0.011,
+   "avg_place": 4.35,
+   "top4": 0.6,
+   "level": 8,
+   "strategy": "standard",
+   "traits": {
+    "Brawler": 2,
+    "Defender": 2,
+    "Elderwood": 6,
+    "Executioner": 3,
+    "Spellweaver": 2,
+    "Flora Fatalis": 2
+   },
+   "units": [
+    {
+     "name": "Ezreal",
+     "cost": 4,
+     "freq": 0.85,
+     "three_star_rate": 0.0,
+     "front": false,
+     "item_avg": 2.5,
+     "items": [
+      "Deathblade",
+      "Last Whisper",
+      "Spear of Shojin"
+     ]
+    },
+    {
+     "name": "Soraka",
+     "cost": 4,
+     "freq": 0.8,
+     "three_star_rate": 0.0,
+     "front": false,
+     "item_avg": 2.5,
+     "items": [
+      "Nashor's Tooth",
+      "Rabadon's Deathcap",
+      "Elderwood Emblem"
+     ]
+    },
+    {
+     "name": "Fiddlesticks",
+     "cost": 3,
+     "freq": 0.8,
+     "three_star_rate": 0.0,
+     "front": true,
+     "item_avg": 1.1,
+     "items": [
+      "Elderwood Emblem"
+     ]
+    },
+    {
+     "name": "Alistar",
+     "cost": 2,
+     "freq": 0.75,
+     "three_star_rate": 0.07,
+     "front": true,
+     "item_avg": 0.7,
+     "items": []
+    },
+    {
+     "name": "Ornn",
+     "cost": 1,
+     "freq": 0.75,
+     "three_star_rate": 0.13,
+     "front": true,
+     "item_avg": 0.0,
+     "items": []
+    },
+    {
+     "name": "LeBlanc",
+     "cost": 2,
+     "freq": 0.75,
+     "three_star_rate": 0.2,
+     "front": false,
+     "item_avg": 1.2,
+     "items": [
+      "Void Staff"
+     ]
+    },
+    {
+     "name": "Hecarim",
+     "cost": 3,
+     "freq": 0.6,
+     "three_star_rate": 0.0,
+     "front": true,
+     "item_avg": 0.9,
+     "items": []
+    },
+    {
+     "name": "Gnar",
+     "cost": 5,
+     "freq": 0.45,
+     "three_star_rate": 0.0,
+     "front": true,
+     "item_avg": 1.3,
+     "items": [
+      "Evenshroud"
+     ]
+    },
+    {
+     "name": "Xayah",
+     "cost": 1,
+     "freq": 0.35,
+     "three_star_rate": 0.0,
+     "front": false,
+     "item_avg": 0.0,
+     "items": []
+    },
+    {
+     "name": "Lux",
+     "cost": 5,
+     "freq": 0.3,
+     "three_star_rate": 0.0,
+     "front": false,
+     "item_avg": 1.3,
+     "items": []
+    }
+   ],
+   "early": [
+    {
+     "name": "Xayah",
+     "cost": 1,
+     "shares": [
+      "Elderwood"
+     ],
+     "front": false,
+     "score": 6
+    },
+    {
+     "name": "Yunara",
+     "cost": 2,
+     "shares": [
+      "Executioner"
+     ],
+     "front": false,
+     "score": 3
+    },
+    {
+     "name": "Azir",
+     "cost": 3,
+     "shares": [
+      "Executioner"
+     ],
+     "front": false,
+     "score": 3
+    },
+    {
+     "name": "Karma",
+     "cost": 1,
+     "shares": [
+      "Spellweaver"
+     ],
+     "front": false,
+     "score": 2
+    },
+    {
+     "name": "Kobuko",
+     "cost": 1,
+     "shares": [
+      "Brawler"
+     ],
+     "front": true,
+     "score": 2
+    },
+    {
+     "name": "Leona",
+     "cost": 1,
+     "shares": [
+      "Defender"
+     ],
+     "front": true,
+     "score": 2
+    },
+    {
+     "name": "Rek'Sai",
+     "cost": 1,
+     "shares": [
+      "Brawler"
+     ],
+     "front": true,
+     "score": 2
+    },
+    {
+     "name": "Veigar",
+     "cost": 1,
+     "shares": [
+      "Spellweaver"
+     ],
+     "front": false,
+     "score": 2
+    }
+   ]
+  },
+  {
+   "name": "Defender + Rival",
+   "games": 18,
+   "play_rate": 0.01,
+   "avg_place": 4.44,
+   "top4": 0.5,
+   "level": 8,
+   "strategy": "reroll3",
+   "traits": {
+    "Defender": 6,
+    "Rival": 1,
+    "Spellweaver": 2,
+    "Flora Fatalis": 1
+   },
+   "units": [
+    {
+     "name": "Cassiopeia",
+     "cost": 3,
+     "freq": 1.0,
+     "three_star_rate": 0.67,
+     "front": false,
+     "item_avg": 3.0,
+     "items": [
+      "Archangel's Staff",
+      "Hextech Gunblade",
+      "Spear of Shojin"
+     ]
+    },
+    {
+     "name": "Fiddlesticks",
+     "cost": 3,
+     "freq": 1.0,
+     "three_star_rate": 0.33,
+     "front": false,
+     "item_avg": 1.7,
+     "items": []
+    },
+    {
+     "name": "Lillia",
+     "cost": 4,
+     "freq": 0.94,
+     "three_star_rate": 0.0,
+     "front": false,
+     "item_avg": 1.1,
+     "items": []
+    },
+    {
+     "name": "Rammus",
+     "cost": 3,
+     "freq": 0.94,
+     "three_star_rate": 0.88,
+     "front": true,
+     "item_avg": 2.8,
+     "items": [
+      "Warmogs Armor",
+      "Steadfast Heart",
+      "Sunfire Cape"
+     ]
+    },
+    {
+     "name": "Shen",
+     "cost": 2,
+     "freq": 0.83,
+     "three_star_rate": 0.07,
+     "front": true,
+     "item_avg": 0.4,
+     "items": []
+    },
+    {
+     "name": "Rengar",
+     "cost": 3,
+     "freq": 0.72,
+     "three_star_rate": 0.77,
+     "front": false,
+     "item_avg": 2.8,
+     "items": [
+      "Defender Emblem",
+      "Titan's Resolve",
+      "Guinsoo's Rageblade"
+     ]
+    },
+    {
+     "name": "Leona",
+     "cost": 1,
+     "freq": 0.67,
+     "three_star_rate": 0.0,
+     "front": true,
+     "item_avg": 0.1,
+     "items": []
+    },
+    {
+     "name": "Ornn",
+     "cost": 1,
+     "freq": 0.56,
+     "three_star_rate": 0.1,
+     "front": true,
+     "item_avg": 0.7,
+     "items": []
+    },
+    {
+     "name": "Kha'Zix",
+     "cost": 3,
+     "freq": 0.28,
+     "three_star_rate": 0.8,
+     "front": false,
+     "item_avg": 3.0,
+     "items": [
+      "Defender Emblem"
+     ]
+    }
+   ],
+   "early": [
+    {
+     "name": "Karma",
+     "cost": 1,
+     "shares": [
+      "Spellweaver"
+     ],
+     "front": false,
+     "score": 2
+    },
+    {
+     "name": "Veigar",
+     "cost": 1,
+     "shares": [
+      "Spellweaver"
+     ],
+     "front": false,
+     "score": 2
+    },
+    {
+     "name": "LeBlanc",
+     "cost": 2,
+     "shares": [
+      "Spellweaver"
+     ],
+     "front": false,
+     "score": 2
+    },
+    {
+     "name": "Kha'Zix",
+     "cost": 3,
+     "shares": [
+      "Rival"
+     ],
+     "front": false,
+     "score": 1
+    }
+   ]
+  },
+  {
+   "name": "Rival + Flora Fatalis",
+   "games": 29,
+   "play_rate": 0.016,
+   "avg_place": 4.45,
+   "top4": 0.52,
+   "level": 7,
+   "strategy": "reroll3",
+   "traits": {
+    "Defender": 2,
+    "Elderwood": 3,
+    "Rival": 1,
+    "Executioner": 3,
+    "Vanguard": 2,
+    "Flora Fatalis": 2,
+    "Ravager": 2,
+    "Spellweaver": 2
+   },
+   "units": [
+    {
+     "name": "Kha'Zix",
+     "cost": 3,
+     "freq": 1.0,
+     "three_star_rate": 0.72,
+     "front": false,
+     "item_avg": 2.9,
+     "items": [
+      "Hand Of Justice",
+      "Rabadon's Deathcap",
+      "Edge of Night"
+     ]
+    },
+    {
+     "name": "Soraka",
+     "cost": 4,
+     "freq": 1.0,
+     "three_star_rate": 0.0,
+     "front": false,
+     "item_avg": 1.3,
+     "items": []
+    },
+    {
+     "name": "Fiddlesticks",
+     "cost": 3,
+     "freq": 1.0,
+     "three_star_rate": 0.14,
+     "front": true,
+     "item_avg": 1.0,
+     "items": []
+    },
+    {
+     "name": "Hecarim",
+     "cost": 3,
+     "freq": 0.86,
+     "three_star_rate": 0.56,
+     "front": true,
+     "item_avg": 2.6,
+     "items": [
+      "Gargoyle Stoneplate",
+      "Warmogs Armor"
+     ]
+    },
+    {
+     "name": "Ezreal",
+     "cost": 4,
+     "freq": 0.83,
+     "three_star_rate": 0.0,
+     "front": false,
+     "item_avg": 1.7,
+     "items": [
+      "Spear of Shojin",
+      "Last Whisper"
+     ]
+    },
+    {
+     "name": "Diana",
+     "cost": 3,
+     "freq": 0.83,
+     "three_star_rate": 0.21,
+     "front": false,
+     "item_avg": 2.0,
+     "items": [
+      "Edge of Night",
+      "Ionic Spark"
+     ]
+    },
+    {
+     "name": "Ornn",
+     "cost": 1,
+     "freq": 0.76,
+     "three_star_rate": 0.0,
+     "front": true,
+     "item_avg": 0.0,
+     "items": []
+    }
+   ],
+   "early": [
+    {
+     "name": "LeBlanc",
+     "cost": 2,
+     "shares": [
+      "Elderwood",
+      "Spellweaver"
+     ],
+     "front": false,
+     "score": 5
+    },
+    {
+     "name": "Xayah",
+     "cost": 1,
+     "shares": [
+      "Elderwood"
+     ],
+     "front": false,
+     "score": 3
+    },
+    {
+     "name": "Alistar",
+     "cost": 2,
+     "shares": [
+      "Elderwood"
+     ],
+     "front": true,
+     "score": 3
+    },
+    {
+     "name": "Yunara",
+     "cost": 2,
+     "shares": [
+      "Executioner"
+     ],
+     "front": false,
+     "score": 3
+    },
+    {
+     "name": "Azir",
+     "cost": 3,
+     "shares": [
+      "Executioner"
+     ],
+     "front": false,
+     "score": 3
+    },
+    {
+     "name": "Akali",
+     "cost": 1,
+     "shares": [
+      "Ravager"
+     ],
+     "front": false,
+     "score": 2
+    },
+    {
+     "name": "Camille",
+     "cost": 1,
+     "shares": [
+      "Ravager"
+     ],
+     "front": false,
+     "score": 2
+    },
+    {
+     "name": "Karma",
+     "cost": 1,
+     "shares": [
+      "Spellweaver"
+     ],
+     "front": false,
+     "score": 2
+    }
+   ]
+  },
+  {
+   "name": "Blossom + Juggernaut",
+   "games": 19,
+   "play_rate": 0.01,
+   "avg_place": 4.47,
+   "top4": 0.53,
+   "level": 9,
+   "strategy": "standard",
+   "traits": {
+    "Blossom": 3,
+    "Summoner": 2,
+    "Juggernaut": 4,
+    "Primal": 2
+   },
+   "units": [
+    {
+     "name": "Yorick",
+     "cost": 1,
+     "freq": 0.95,
+     "three_star_rate": 0.06,
+     "front": true,
+     "item_avg": 0.2,
+     "items": []
+    },
+    {
+     "name": "Amumu",
+     "cost": 4,
+     "freq": 0.84,
+     "three_star_rate": 0.0,
+     "front": true,
+     "item_avg": 1.2,
+     "items": []
+    },
+    {
+     "name": "Vi",
+     "cost": 3,
+     "freq": 0.84,
+     "three_star_rate": 0.0,
+     "front": true,
+     "item_avg": 1.0,
+     "items": []
+    },
+    {
+     "name": "Ashe",
+     "cost": 5,
+     "freq": 0.63,
+     "three_star_rate": 0.0,
+     "front": false,
+     "item_avg": 2.6,
+     "items": [
+      "Spear of Shojin",
+      "Last Whisper",
+      "Red Buff"
+     ]
+    },
+    {
+     "name": "Maokai",
+     "cost": 5,
+     "freq": 0.63,
+     "three_star_rate": 0.0,
+     "front": true,
+     "item_avg": 2.2,
+     "items": [
+      "Warmogs Armor",
+      "Steadfast Heart",
+      "Dragon's Claw"
+     ]
+    },
+    {
+     "name": "Sejuani",
+     "cost": 2,
+     "freq": 0.53,
+     "three_star_rate": 0.2,
+     "front": true,
+     "item_avg": 0.6,
+     "items": []
+    },
+    {
+     "name": "Scuttlecrab",
+     "cost": 2,
+     "freq": 0.47,
+     "three_star_rate": 0.11,
+     "front": true,
+     "item_avg": 0.9,
+     "items": []
+    },
+    {
+     "name": "Zyra",
+     "cost": 4,
+     "freq": 0.47,
+     "three_star_rate": 0.0,
+     "front": false,
+     "item_avg": 3.0,
+     "items": [
+      "Archangel's Staff",
+      "Hextech Gunblade",
+      "Spear of Shojin"
+     ]
+    },
+    {
+     "name": "Sivir",
+     "cost": 4,
+     "freq": 0.47,
+     "three_star_rate": 0.0,
+     "front": false,
+     "item_avg": 2.4,
+     "items": [
+      "Giant Slayer",
+      "Infinity Edge"
+     ]
+    },
+    {
+     "name": "Rakan",
+     "cost": 1,
+     "freq": 0.42,
+     "three_star_rate": 0.0,
+     "front": true,
+     "item_avg": 0.1,
+     "items": []
+    },
+    {
+     "name": "Lux",
+     "cost": 5,
+     "freq": 0.42,
+     "three_star_rate": 0.0,
+     "front": false,
+     "item_avg": 2.4,
+     "items": [
+      "Void Staff",
+      "Archangel's Staff",
+      "Red Buff"
+     ]
+    },
+    {
+     "name": "Karma",
+     "cost": 1,
+     "freq": 0.26,
+     "three_star_rate": 0.2,
+     "front": false,
+     "item_avg": 0.8,
+     "items": []
+    }
+   ],
+   "early": [
+    {
+     "name": "Karma",
+     "cost": 1,
+     "shares": [
+      "Blossom"
+     ],
+     "front": false,
+     "score": 3
+    },
+    {
+     "name": "Yunara",
+     "cost": 2,
+     "shares": [
+      "Blossom"
+     ],
+     "front": false,
+     "score": 3
+    },
+    {
+     "name": "Master Yi",
+     "cost": 3,
+     "shares": [
+      "Blossom"
+     ],
+     "front": false,
+     "score": 3
+    },
+    {
+     "name": "Azir",
+     "cost": 3,
+     "shares": [
+      "Summoner"
+     ],
+     "front": false,
+     "score": 2
+    },
+    {
+     "name": "Mama Beak",
+     "cost": 3,
+     "shares": [
+      "Summoner"
+     ],
+     "front": false,
+     "score": 2
+    }
+   ]
+  },
+  {
+   "name": "Blackthorn + Flora Fatalis",
+   "games": 22,
+   "play_rate": 0.012,
+   "avg_place": 4.5,
+   "top4": 0.55,
+   "level": 8,
+   "strategy": "standard",
+   "traits": {
+    "Blackthorn": 4,
+    "Defender": 2,
+    "Executioner": 2,
+    "Spellweaver": 2,
+    "Summoner": 2,
+    "Flora Fatalis": 2,
+    "Monolith": 1
+   },
+   "units": [
+    {
+     "name": "Soraka",
+     "cost": 4,
+     "freq": 0.95,
+     "three_star_rate": 0.05,
+     "front": false,
+     "item_avg": 2.3,
+     "items": [
+      "Jeweled Gauntlet",
+      "Spear of Shojin",
+      "Giant Slayer"
+     ]
+    },
+    {
+     "name": "Fiddlesticks",
+     "cost": 3,
+     "freq": 0.95,
+     "three_star_rate": 0.05,
+     "front": true,
+     "item_avg": 0.5,
+     "items": []
+    },
+    {
+     "name": "Azir",
+     "cost": 3,
+     "freq": 0.91,
+     "three_star_rate": 0.1,
+     "front": false,
+     "item_avg": 1.4,
+     "items": [
+      "Red Buff"
+     ]
+    },
+    {
+     "name": "Malphite",
+     "cost": 4,
+     "freq": 0.82,
+     "three_star_rate": 0.0,
+     "front": true,
+     "item_avg": 2.8,
+     "items": [
+      "Gargoyle Stoneplate",
+      "Warmogs Armor"
+     ]
+    },
+    {
+     "name": "Zyra",
+     "cost": 4,
+     "freq": 0.59,
+     "three_star_rate": 0.08,
+     "front": false,
+     "item_avg": 1.9,
+     "items": [
+      "Spear of Shojin",
+      "Void Staff"
+     ]
+    },
+    {
+     "name": "Lux",
+     "cost": 5,
+     "freq": 0.45,
+     "three_star_rate": 0.0,
+     "front": false,
+     "item_avg": 2.0,
+     "items": [
+      "Spear of Shojin",
+      "Jeweled Gauntlet"
+     ]
+    },
+    {
+     "name": "Veigar",
+     "cost": 1,
+     "freq": 0.41,
+     "three_star_rate": 0.33,
+     "front": false,
+     "item_avg": 1.1,
+     "items": [
+      "Jeweled Gauntlet"
+     ]
+    },
+    {
+     "name": "Amumu",
+     "cost": 4,
+     "freq": 0.36,
+     "three_star_rate": 0.0,
+     "front": true,
+     "item_avg": 0.5,
+     "items": [
+      "Protector's Vow"
+     ]
+    },
+    {
+     "name": "Kennen",
+     "cost": 5,
+     "freq": 0.32,
+     "three_star_rate": 0.0,
+     "front": false,
+     "item_avg": 2.3,
+     "items": [
+      "Void Staff",
+      "Blackthorn Emblem",
+      "Giant Slayer"
+     ]
+    },
+    {
+     "name": "Lillia",
+     "cost": 4,
+     "freq": 0.27,
+     "three_star_rate": 0.0,
+     "front": true,
+     "item_avg": 1.0,
+     "items": [
+      "Thief's Gloves"
+     ]
+    },
+    {
+     "name": "Rek'Sai",
+     "cost": 1,
+     "freq": 0.27,
+     "three_star_rate": 0.17,
+     "front": false,
+     "item_avg": 1.8,
+     "items": [
+      "Steadfast Heart"
+     ]
+    }
+   ],
+   "early": [
+    {
+     "name": "Rek'Sai",
+     "cost": 1,
+     "shares": [
+      "Blackthorn"
+     ],
+     "front": true,
+     "score": 4
+    },
+    {
+     "name": "Warwick",
+     "cost": 2,
+     "shares": [
+      "Blackthorn"
+     ],
+     "front": false,
+     "score": 4
+    },
+    {
+     "name": "Karma",
+     "cost": 1,
+     "shares": [
+      "Spellweaver"
+     ],
+     "front": false,
+     "score": 2
+    },
+    {
+     "name": "Leona",
+     "cost": 1,
+     "shares": [
+      "Defender"
+     ],
+     "front": true,
+     "score": 2
+    },
+    {
+     "name": "Ornn",
+     "cost": 1,
+     "shares": [
+      "Defender"
+     ],
+     "front": true,
+     "score": 2
+    },
+    {
+     "name": "Yorick",
+     "cost": 1,
+     "shares": [
+      "Summoner"
+     ],
+     "front": true,
+     "score": 2
+    },
+    {
+     "name": "LeBlanc",
+     "cost": 2,
+     "shares": [
+      "Spellweaver"
+     ],
+     "front": false,
+     "score": 2
+    },
+    {
+     "name": "Shen",
+     "cost": 2,
+     "shares": [
+      "Defender"
+     ],
+     "front": true,
+     "score": 2
+    }
+   ]
+  },
+  {
+   "name": "Blossom + Executioner",
+   "games": 20,
+   "play_rate": 0.011,
+   "avg_place": 4.55,
+   "top4": 0.55,
+   "level": 8,
+   "strategy": "reroll2",
+   "traits": {
+    "Blossom": 3,
+    "Executioner": 3,
+    "Juggernaut": 2,
+    "Summoner": 2,
+    "Spellweaver": 2
+   },
+   "units": [
+    {
+     "name": "Yunara",
+     "cost": 2,
+     "freq": 0.9,
+     "three_star_rate": 0.56,
+     "front": false,
+     "item_avg": 2.3,
+     "items": [
+      "Last Whisper",
+      "Spear of Shojin",
+      "Deathblade"
+     ]
+    },
+    {
+     "name": "Yorick",
+     "cost": 1,
+     "freq": 0.7,
+     "three_star_rate": 0.64,
+     "front": true,
+     "item_avg": 1.1,
+     "items": []
+    },
+    {
+     "name": "Kennen",
+     "cost": 5,
+     "freq": 0.5,
+     "three_star_rate": 0.0,
+     "front": false,
+     "item_avg": 1.9,
+     "items": []
+    },
+    {
+     "name": "Karma",
+     "cost": 1,
+     "freq": 0.5,
+     "three_star_rate": 0.9,
+     "front": false,
+     "item_avg": 2.5,
+     "items": [
+      "Void Staff",
+      "Spear of Shojin",
+      "Rabadon's Deathcap"
+     ]
+    },
+    {
+     "name": "Azir",
+     "cost": 3,
+     "freq": 0.5,
+     "three_star_rate": 0.0,
+     "front": false,
+     "item_avg": 0.6,
+     "items": []
+    },
+    {
+     "name": "Sett",
+     "cost": 4,
+     "freq": 0.5,
+     "three_star_rate": 0.0,
+     "front": true,
+     "item_avg": 1.4,
+     "items": [
+      "Gargoyle Stoneplate",
+      "Warmogs Armor"
+     ]
+    },
+    {
+     "name": "Sejuani",
+     "cost": 2,
+     "freq": 0.45,
+     "three_star_rate": 0.89,
+     "front": true,
+     "item_avg": 2.7,
+     "items": [
+      "Gargoyle Stoneplate",
+      "Warmogs Armor",
+      "Protector's Vow"
+     ]
+    },
+    {
+     "name": "Ezreal",
+     "cost": 4,
+     "freq": 0.4,
+     "three_star_rate": 0.0,
+     "front": false,
+     "item_avg": 2.8,
+     "items": [
+      "Last Whisper",
+      "Deathblade",
+      "Spear of Shojin"
+     ]
+    },
+    {
+     "name": "Ahri",
+     "cost": 4,
+     "freq": 0.4,
+     "three_star_rate": 0.0,
+     "front": false,
+     "item_avg": 2.9,
+     "items": [
+      "Spear of Shojin",
+      "Executioner Emblem",
+      "Jeweled Gauntlet"
+     ]
+    },
+    {
+     "name": "Kayle",
+     "cost": 2,
+     "freq": 0.35,
+     "three_star_rate": 0.14,
+     "front": false,
+     "item_avg": 0.7,
+     "items": []
+    },
+    {
+     "name": "Leona",
+     "cost": 1,
+     "freq": 0.35,
+     "three_star_rate": 0.57,
+     "front": true,
+     "item_avg": 0.0,
+     "items": []
+    },
+    {
+     "name": "LeBlanc",
+     "cost": 2,
+     "freq": 0.3,
+     "three_star_rate": 0.5,
+     "front": false,
+     "item_avg": 1.2,
+     "items": []
+    },
+    {
+     "name": "Gnar",
+     "cost": 5,
+     "freq": 0.25,
+     "three_star_rate": 0.0,
+     "front": true,
+     "item_avg": 1.4,
+     "items": [
+      "Thief's Gloves"
+     ]
+    },
+    {
+     "name": "Fiddlesticks",
+     "cost": 3,
+     "freq": 0.25,
+     "three_star_rate": 0.0,
+     "front": true,
+     "item_avg": 0.0,
+     "items": []
+    }
+   ],
+   "early": [
+    {
+     "name": "Master Yi",
+     "cost": 3,
+     "shares": [
+      "Blossom"
+     ],
+     "front": false,
+     "score": 3
+    },
+    {
+     "name": "Rakan",
+     "cost": 1,
+     "shares": [
+      "Juggernaut"
+     ],
+     "front": true,
+     "score": 2
+    },
+    {
+     "name": "Veigar",
+     "cost": 1,
+     "shares": [
+      "Spellweaver"
+     ],
+     "front": false,
+     "score": 2
+    },
+    {
+     "name": "LeBlanc",
+     "cost": 2,
+     "shares": [
+      "Spellweaver"
+     ],
+     "front": false,
+     "score": 2
+    },
+    {
+     "name": "Scuttlecrab",
+     "cost": 2,
+     "shares": [
+      "Juggernaut"
+     ],
+     "front": true,
+     "score": 2
+    },
+    {
+     "name": "Cassiopeia",
+     "cost": 3,
+     "shares": [
+      "Spellweaver"
+     ],
+     "front": false,
+     "score": 2
+    },
+    {
+     "name": "Fiddlesticks",
+     "cost": 3,
+     "shares": [
+      "Spellweaver"
+     ],
+     "front": true,
+     "score": 2
+    },
+    {
+     "name": "Mama Beak",
+     "cost": 3,
+     "shares": [
+      "Summoner"
+     ],
+     "front": false,
+     "score": 2
+    }
+   ]
+  },
+  {
+   "name": "Blossom + Brawler",
+   "games": 28,
+   "play_rate": 0.015,
+   "avg_place": 4.57,
+   "top4": 0.46,
+   "level": 9,
+   "strategy": "standard",
+   "traits": {
+    "Blossom": 4,
+    "Brawler": 2,
+    "Spellweaver": 2,
+    "Invoker": 2
+   },
+   "units": [
+    {
+     "name": "Sett",
+     "cost": 4,
+     "freq": 1.0,
+     "three_star_rate": 0.0,
+     "front": true,
+     "item_avg": 2.2,
+     "items": [
+      "Gargoyle Stoneplate",
+      "Warmogs Armor",
+      "Spirit Visage"
+     ]
+    },
+    {
+     "name": "Ahri",
+     "cost": 4,
+     "freq": 0.89,
+     "three_star_rate": 0.0,
+     "front": false,
+     "item_avg": 2.8,
+     "items": [
+      "Jeweled Gauntlet",
+      "Spear of Shojin",
+      "Striker's Flail"
+     ]
+    },
+    {
+     "name": "Gnar",
+     "cost": 5,
+     "freq": 0.71,
+     "three_star_rate": 0.0,
+     "front": false,
+     "item_avg": 0.8,
+     "items": []
+    },
+    {
+     "name": "Ashe",
+     "cost": 5,
+     "freq": 0.61,
+     "three_star_rate": 0.0,
+     "front": false,
+     "item_avg": 1.7,
+     "items": [
+      "Red Buff"
+     ]
+    },
+    {
+     "name": "Sentinel",
+     "cost": 4,
+     "freq": 0.54,
+     "three_star_rate": 0.0,
+     "front": true,
+     "item_avg": 1.6,
+     "items": [
+      "Protector's Vow"
+     ]
+    },
+    {
+     "name": "Morgana",
+     "cost": 4,
+     "freq": 0.5,
+     "three_star_rate": 0.0,
+     "front": false,
+     "item_avg": 2.1,
+     "items": [
+      "Void Staff",
+      "Morellonomicon"
+     ]
+    },
+    {
+     "name": "Karma",
+     "cost": 1,
+     "freq": 0.46,
+     "three_star_rate": 0.0,
+     "front": false,
+     "item_avg": 0.2,
+     "items": []
+    },
+    {
+     "name": "Yorick",
+     "cost": 1,
+     "freq": 0.39,
+     "three_star_rate": 0.09,
+     "front": true,
+     "item_avg": 0.1,
+     "items": []
+    },
+    {
+     "name": "Krug",
+     "cost": 3,
+     "freq": 0.39,
+     "three_star_rate": 0.0,
+     "front": true,
+     "item_avg": 0.4,
+     "items": []
+    },
+    {
+     "name": "Alune",
+     "cost": 5,
+     "freq": 0.36,
+     "three_star_rate": 0.0,
+     "front": false,
+     "item_avg": 2.1,
+     "items": [
+      "Void Staff",
+      "Spear of Shojin"
+     ]
+    },
+    {
+     "name": "Lux",
+     "cost": 5,
+     "freq": 0.36,
+     "three_star_rate": 0.0,
+     "front": false,
+     "item_avg": 2.3,
+     "items": [
+      "Void Staff",
+      "Spear of Shojin",
+      "Jeweled Gauntlet"
+     ]
+    },
+    {
+     "name": "Ivern",
+     "cost": 5,
+     "freq": 0.32,
+     "three_star_rate": 0.0,
+     "front": false,
+     "item_avg": 0.8,
+     "items": []
+    },
+    {
+     "name": "Taric",
+     "cost": 5,
+     "freq": 0.25,
+     "three_star_rate": 0.0,
+     "front": true,
+     "item_avg": 1.6,
+     "items": [
+      "Gargoyle Stoneplate",
+      "Bramble Vest"
+     ]
+    }
+   ],
+   "early": [
+    {
+     "name": "Yorick",
+     "cost": 1,
+     "shares": [
+      "Blossom"
+     ],
+     "front": true,
+     "score": 4
+    },
+    {
+     "name": "Yunara",
+     "cost": 2,
+     "shares": [
+      "Blossom"
+     ],
+     "front": false,
+     "score": 4
+    },
+    {
+     "name": "Master Yi",
+     "cost": 3,
+     "shares": [
+      "Blossom"
+     ],
+     "front": false,
+     "score": 4
+    },
+    {
+     "name": "Kobuko",
+     "cost": 1,
+     "shares": [
+      "Brawler"
+     ],
+     "front": true,
+     "score": 2
+    },
+    {
+     "name": "Pebbles",
+     "cost": 1,
+     "shares": [
+      "Invoker"
+     ],
+     "front": false,
+     "score": 2
+    },
+    {
+     "name": "Rek'Sai",
+     "cost": 1,
+     "shares": [
+      "Brawler"
+     ],
+     "front": true,
+     "score": 2
+    },
+    {
+     "name": "Veigar",
+     "cost": 1,
+     "shares": [
+      "Spellweaver"
+     ],
+     "front": false,
+     "score": 2
+    },
+    {
+     "name": "Alistar",
+     "cost": 2,
+     "shares": [
+      "Brawler"
+     ],
+     "front": true,
+     "score": 2
+    }
+   ]
+  },
+  {
+   "name": "Adaptor + Inferno",
+   "games": 145,
+   "play_rate": 0.078,
+   "avg_place": 4.66,
+   "top4": 0.5,
+   "level": 8,
+   "strategy": "standard",
+   "traits": {
+    "Adaptor": 2,
+    "Inferno": 2,
+    "Lunar": 2,
+    "Primal": 2,
+    "Rapidfire": 2,
+    "Vanguard": 2,
+    "Caustic": 1,
+    "Juggernaut": 2,
+    "Invoker": 2
+   },
+   "units": [
+    {
+     "name": "Nidalee",
+     "cost": 4,
+     "freq": 1.0,
+     "three_star_rate": 0.01,
+     "front": false,
+     "item_avg": 3.0,
+     "items": [
+      "Sterak's Gage",
+      "Infinity Edge",
+      "Spear of Shojin"
+     ]
+    },
+    {
+     "name": "Kog'Maw",
+     "cost": 3,
+     "freq": 0.99,
+     "three_star_rate": 0.01,
+     "front": false,
+     "item_avg": 0.6,
+     "items": []
+    },
+    {
+     "name": "Aphelios",
+     "cost": 4,
+     "freq": 0.99,
+     "three_star_rate": 0.02,
+     "front": false,
+     "item_avg": 2.9,
+     "items": [
+      "Kraken's Fury",
+      "Guinsoo's Rageblade",
+      "Infinity Edge"
+     ]
+    },
+    {
+     "name": "Diana",
+     "cost": 3,
+     "freq": 0.99,
+     "three_star_rate": 0.0,
+     "front": false,
+     "item_avg": 0.5,
+     "items": []
+    },
+    {
+     "name": "Varus",
+     "cost": 1,
+     "freq": 0.99,
+     "three_star_rate": 0.01,
+     "front": false,
+     "item_avg": 0.0,
+     "items": []
+    },
+    {
+     "name": "Amumu",
+     "cost": 4,
+     "freq": 0.98,
+     "three_star_rate": 0.0,
+     "front": true,
+     "item_avg": 1.8,
+     "items": [
+      "Gargoyle Stoneplate"
+     ]
+    },
+    {
+     "name": "Vi",
+     "cost": 3,
+     "freq": 0.98,
+     "three_star_rate": 0.0,
+     "front": true,
+     "item_avg": 0.6,
+     "items": []
+    },
+    {
+     "name": "Sentinel",
+     "cost": 4,
+     "freq": 0.94,
+     "three_star_rate": 0.0,
+     "front": true,
+     "item_avg": 2.0,
+     "items": [
+      "Protector's Vow"
+     ]
+    }
+   ],
+   "early": [
+    {
+     "name": "Akali",
+     "cost": 1,
+     "shares": [
+      "Inferno",
+      "Adaptor"
+     ],
+     "front": false,
+     "score": 4
+    },
+    {
+     "name": "Rakan",
+     "cost": 1,
+     "shares": [
+      "Juggernaut",
+      "Vanguard"
+     ],
+     "front": true,
+     "score": 4
+    },
+    {
+     "name": "Pebbles",
+     "cost": 1,
+     "shares": [
+      "Invoker"
+     ],
+     "front": false,
+     "score": 2
+    },
+    {
+     "name": "Xayah",
+     "cost": 1,
+     "shares": [
+      "Rapidfire"
+     ],
+     "front": false,
+     "score": 2
+    },
+    {
+     "name": "Yorick",
+     "cost": 1,
+     "shares": [
+      "Juggernaut"
+     ],
+     "front": true,
+     "score": 2
+    },
+    {
+     "name": "Elise",
+     "cost": 2,
+     "shares": [
+      "Vanguard"
+     ],
+     "front": true,
+     "score": 2
+    },
+    {
+     "name": "Gromp",
+     "cost": 2,
+     "shares": [
+      "Adaptor"
+     ],
+     "front": false,
+     "score": 2
+    },
+    {
+     "name": "Kayle",
+     "cost": 2,
+     "shares": [
+      "Rapidfire"
+     ],
+     "front": false,
+     "score": 2
+    }
+   ]
+  },
+  {
+   "name": "Hunter + Riftbeast",
+   "games": 18,
+   "play_rate": 0.01,
+   "avg_place": 4.67,
+   "top4": 0.44,
+   "level": 9,
+   "strategy": "standard",
+   "traits": {
+    "Hunter": 3,
+    "Primal": 2,
+    "Riftbeast": 3,
+    "Vanguard": 2,
+    "Emerald Aspect": 1,
+    "Juggernaut": 2,
+    "Apex Predator": 1
+   },
+   "units": [
+    {
+     "name": "Sentinel",
+     "cost": 4,
+     "freq": 0.94,
+     "three_star_rate": 0.0,
+     "front": true,
+     "item_avg": 1.1,
+     "items": []
+    },
+    {
+     "name": "Sivir",
+     "cost": 4,
+     "freq": 0.83,
+     "three_star_rate": 0.0,
+     "front": false,
+     "item_avg": 1.6,
+     "items": [
+      "Spear of Shojin",
+      "Infinity Edge"
+     ]
+    },
+    {
+     "name": "Ashe",
+     "cost": 5,
+     "freq": 0.78,
+     "three_star_rate": 0.0,
+     "front": false,
+     "item_avg": 2.5,
+     "items": [
+      "Guinsoo's Rageblade",
+      "Last Whisper",
+      "Red Buff"
+     ]
+    },
+    {
+     "name": "Elder Dragon",
+     "cost": 5,
+     "freq": 0.67,
+     "three_star_rate": 0.0,
+     "front": false,
+     "item_avg": 3.0,
+     "items": [
+      "Infinity Edge",
+      "Hunter Emblem",
+      "Deathblade"
+     ]
+    },
+    {
+     "name": "Taric",
+     "cost": 5,
+     "freq": 0.67,
+     "three_star_rate": 0.0,
+     "front": true,
+     "item_avg": 1.6,
+     "items": [
+      "Gargoyle Stoneplate",
+      "Warmogs Armor"
+     ]
+    },
+    {
+     "name": "Maokai",
+     "cost": 5,
+     "freq": 0.61,
+     "three_star_rate": 0.0,
+     "front": true,
+     "item_avg": 1.5,
+     "items": [
+      "Warmogs Armor"
+     ]
+    },
+    {
+     "name": "Vi",
+     "cost": 3,
+     "freq": 0.39,
+     "three_star_rate": 0.0,
+     "front": true,
+     "item_avg": 0.0,
+     "items": []
+    },
+    {
+     "name": "Cinderling",
+     "cost": 1,
+     "freq": 0.39,
+     "three_star_rate": 0.14,
+     "front": false,
+     "item_avg": 0.4,
+     "items": []
+    },
+    {
+     "name": "Krug",
+     "cost": 3,
+     "freq": 0.39,
+     "three_star_rate": 0.14,
+     "front": true,
+     "item_avg": 1.0,
+     "items": []
+    },
+    {
+     "name": "Ivern",
+     "cost": 5,
+     "freq": 0.33,
+     "three_star_rate": 0.0,
+     "front": false,
+     "item_avg": 1.3,
+     "items": []
+    },
+    {
+     "name": "Nidalee",
+     "cost": 4,
+     "freq": 0.28,
+     "three_star_rate": 0.0,
+     "front": false,
+     "item_avg": 2.4,
+     "items": [
+      "Hunter Emblem",
+      "Sterak's Gage",
+      "Infinity Edge"
+     ]
+    },
+    {
+     "name": "Kog'Maw",
+     "cost": 3,
+     "freq": 0.28,
+     "three_star_rate": 0.0,
+     "front": false,
+     "item_avg": 1.0,
+     "items": []
+    }
+   ],
+   "early": [
+    {
+     "name": "Cinderling",
+     "cost": 1,
+     "shares": [
+      "Riftbeast",
+      "Hunter"
+     ],
+     "front": false,
+     "score": 6
+    },
+    {
+     "name": "Scuttlecrab",
+     "cost": 2,
+     "shares": [
+      "Riftbeast",
+      "Juggernaut"
+     ],
+     "front": true,
+     "score": 5
+    },
+    {
+     "name": "Rakan",
+     "cost": 1,
+     "shares": [
+      "Juggernaut",
+      "Vanguard"
+     ],
+     "front": true,
+     "score": 4
+    },
+    {
+     "name": "Vi",
+     "cost": 3,
+     "shares": [
+      "Primal",
+      "Juggernaut"
+     ],
+     "front": true,
+     "score": 4
+    },
+    {
+     "name": "Pebbles",
+     "cost": 1,
+     "shares": [
+      "Riftbeast"
+     ],
+     "front": false,
+     "score": 3
+    },
+    {
+     "name": "Caitlyn",
+     "cost": 2,
+     "shares": [
+      "Hunter"
+     ],
+     "front": false,
+     "score": 3
+    },
+    {
+     "name": "Gromp",
+     "cost": 2,
+     "shares": [
+      "Riftbeast"
+     ],
+     "front": false,
+     "score": 3
+    },
+    {
+     "name": "Murkwolf",
+     "cost": 2,
+     "shares": [
+      "Riftbeast"
+     ],
+     "front": false,
+     "score": 3
+    }
+   ]
+  },
+  {
+   "name": "Elderwood + Spellweaver",
+   "games": 69,
+   "play_rate": 0.037,
+   "avg_place": 4.72,
+   "top4": 0.49,
+   "level": 7,
+   "strategy": "reroll2",
+   "traits": {
+    "Blackthorn": 2,
+    "Brawler": 2,
+    "Defender": 2,
+    "Elderwood": 3,
+    "Spellweaver": 4,
+    "Flora Fatalis": 1
+   },
+   "units": [
+    {
+     "name": "Ornn",
+     "cost": 1,
+     "freq": 0.99,
+     "three_star_rate": 0.97,
+     "front": true,
+     "item_avg": 2.2,
+     "items": [
+      "Gargoyle Stoneplate",
+      "Warmogs Armor"
+     ]
+    },
+    {
+     "name": "LeBlanc",
+     "cost": 2,
+     "freq": 0.99,
+     "three_star_rate": 0.79,
+     "front": false,
+     "item_avg": 1.3,
+     "items": [
+      "Void Staff"
+     ]
+    },
+    {
+     "name": "Veigar",
+     "cost": 1,
+     "freq": 0.97,
+     "three_star_rate": 1.0,
+     "front": false,
+     "item_avg": 3.0,
+     "items": [
+      "Jeweled Gauntlet",
+      "Blue Buff",
+      "Hextech Gunblade"
+     ]
+    },
+    {
+     "name": "Rek'Sai",
+     "cost": 1,
+     "freq": 0.97,
+     "three_star_rate": 0.85,
+     "front": true,
+     "item_avg": 1.6,
+     "items": []
+    },
+    {
+     "name": "Fiddlesticks",
+     "cost": 3,
+     "freq": 0.97,
+     "three_star_rate": 0.03,
+     "front": false,
+     "item_avg": 0.7,
+     "items": []
+    },
+    {
+     "name": "Alistar",
+     "cost": 2,
+     "freq": 0.94,
+     "three_star_rate": 0.55,
+     "front": true,
+     "item_avg": 1.7,
+     "items": [
+      "Gargoyle Stoneplate",
+      "Warmogs Armor"
+     ]
+    },
+    {
+     "name": "Cassiopeia",
+     "cost": 3,
+     "freq": 0.7,
+     "three_star_rate": 0.19,
+     "front": false,
+     "item_avg": 1.6,
+     "items": [
+      "Void Staff"
+     ]
+    }
+   ],
+   "early": [
+    {
+     "name": "Karma",
+     "cost": 1,
+     "shares": [
+      "Spellweaver"
+     ],
+     "front": false,
+     "score": 4
+    },
+    {
+     "name": "Xayah",
+     "cost": 1,
+     "shares": [
+      "Elderwood"
+     ],
+     "front": false,
+     "score": 3
+    },
+    {
+     "name": "Hecarim",
+     "cost": 3,
+     "shares": [
+      "Elderwood"
+     ],
+     "front": true,
+     "score": 3
+    },
+    {
+     "name": "Kobuko",
+     "cost": 1,
+     "shares": [
+      "Brawler"
+     ],
+     "front": true,
+     "score": 2
+    },
+    {
+     "name": "Leona",
+     "cost": 1,
+     "shares": [
+      "Defender"
+     ],
+     "front": true,
+     "score": 2
+    },
+    {
+     "name": "Shen",
+     "cost": 2,
+     "shares": [
+      "Defender"
+     ],
+     "front": true,
+     "score": 2
+    },
+    {
+     "name": "Warwick",
+     "cost": 2,
+     "shares": [
+      "Blackthorn"
+     ],
+     "front": false,
+     "score": 2
+    },
+    {
+     "name": "Azir",
+     "cost": 3,
+     "shares": [
+      "Blackthorn"
+     ],
+     "front": false,
+     "score": 2
+    }
+   ]
+  },
+  {
+   "name": "Juggernaut + Primal",
+   "games": 27,
+   "play_rate": 0.015,
+   "avg_place": 4.78,
+   "top4": 0.44,
+   "level": 9,
+   "strategy": "standard",
+   "traits": {
+    "Hunter": 2,
+    "Primal": 4,
+    "Juggernaut": 4
+   },
+   "units": [
+    {
+     "name": "Vi",
+     "cost": 3,
+     "freq": 1.0,
+     "three_star_rate": 0.0,
+     "front": true,
+     "item_avg": 1.5,
+     "items": [
+      "Gargoyle Stoneplate"
+     ]
+    },
+    {
+     "name": "Amumu",
+     "cost": 4,
+     "freq": 0.89,
+     "three_star_rate": 0.0,
+     "front": true,
+     "item_avg": 1.5,
+     "items": [
+      "Gargoyle Stoneplate",
+      "Warmogs Armor"
+     ]
+    },
+    {
+     "name": "Sivir",
+     "cost": 4,
+     "freq": 0.81,
+     "three_star_rate": 0.0,
+     "front": false,
+     "item_avg": 2.3,
+     "items": [
+      "Infinity Edge",
+      "Last Whisper",
+      "Deathblade"
+     ]
+    },
+    {
+     "name": "Maokai",
+     "cost": 5,
+     "freq": 0.74,
+     "three_star_rate": 0.0,
+     "front": true,
+     "item_avg": 1.6,
+     "items": [
+      "Spirit Visage"
+     ]
+    },
+    {
+     "name": "Scuttlecrab",
+     "cost": 2,
+     "freq": 0.67,
+     "three_star_rate": 0.0,
+     "front": true,
+     "item_avg": 0.4,
+     "items": []
+    },
+    {
+     "name": "Rakan",
+     "cost": 1,
+     "freq": 0.56,
+     "three_star_rate": 0.0,
+     "front": true,
+     "item_avg": 0.1,
+     "items": []
+    },
+    {
+     "name": "Lux",
+     "cost": 5,
+     "freq": 0.52,
+     "three_star_rate": 0.0,
+     "front": false,
+     "item_avg": 1.7,
+     "items": [
+      "Void Staff"
+     ]
+    },
+    {
+     "name": "Yorick",
+     "cost": 1,
+     "freq": 0.52,
+     "three_star_rate": 0.0,
+     "front": true,
+     "item_avg": 0.2,
+     "items": []
+    },
+    {
+     "name": "Nidalee",
+     "cost": 4,
+     "freq": 0.48,
+     "three_star_rate": 0.0,
+     "front": false,
+     "item_avg": 3.0,
+     "items": [
+      "Infinity Edge",
+      "Hunter Emblem",
+      "Spear of Shojin"
+     ]
+    },
+    {
+     "name": "Ashe",
+     "cost": 5,
+     "freq": 0.41,
+     "three_star_rate": 0.0,
+     "front": false,
+     "item_avg": 1.9,
+     "items": [
+      "Deathblade",
+      "Red Buff"
+     ]
+    },
+    {
+     "name": "Ivern",
+     "cost": 5,
+     "freq": 0.41,
+     "three_star_rate": 0.0,
+     "front": false,
+     "item_avg": 1.5,
+     "items": [
+      "Jeweled Gauntlet",
+      "Red Buff",
+      "Adaptive Helm"
+     ]
+    },
+    {
+     "name": "Zyra",
+     "cost": 4,
+     "freq": 0.26,
+     "three_star_rate": 0.0,
+     "front": false,
+     "item_avg": 2.4,
+     "items": [
+      "Archangel's Staff",
+      "Hextech Gunblade",
+      "Spear of Shojin"
+     ]
+    },
+    {
+     "name": "Sejuani",
+     "cost": 2,
+     "freq": 0.26,
+     "three_star_rate": 0.0,
+     "front": true,
+     "item_avg": 0.0,
+     "items": []
+    }
+   ],
+   "early": [
+    {
+     "name": "Sejuani",
+     "cost": 2,
+     "shares": [
+      "Juggernaut"
+     ],
+     "front": true,
+     "score": 4
+    },
+    {
+     "name": "Cinderling",
+     "cost": 1,
+     "shares": [
+      "Hunter"
+     ],
+     "front": false,
+     "score": 2
+    },
+    {
+     "name": "Caitlyn",
+     "cost": 2,
+     "shares": [
+      "Hunter"
+     ],
+     "front": false,
+     "score": 2
+    },
+    {
+     "name": "Tristana",
+     "cost": 3,
+     "shares": [
+      "Hunter"
+     ],
+     "front": false,
+     "score": 2
+    }
+   ]
+  },
+  {
+   "name": "Summoner + Flora Fatalis",
+   "games": 102,
+   "play_rate": 0.055,
+   "avg_place": 4.84,
+   "top4": 0.45,
+   "level": 8,
+   "strategy": "standard",
+   "traits": {
+    "Monolith": 1,
+    "Blackthorn": 2,
+    "Inferno": 2,
+    "Executioner": 3,
+    "Summoner": 3,
+    "Flora Fatalis": 2,
+    "Juggernaut": 2
+   },
+   "units": [
+    {
+     "name": "Zyra",
+     "cost": 4,
+     "freq": 1.0,
+     "three_star_rate": 0.0,
+     "front": false,
+     "item_avg": 2.6,
+     "items": [
+      "Void Staff",
+      "Spear of Shojin",
+      "Archangel's Staff"
+     ]
+    },
+    {
+     "name": "Azir",
+     "cost": 3,
+     "freq": 1.0,
+     "three_star_rate": 0.09,
+     "front": false,
+     "item_avg": 1.2,
+     "items": []
+    },
+    {
+     "name": "Fiddlesticks",
+     "cost": 3,
+     "freq": 0.99,
+     "three_star_rate": 0.02,
+     "front": true,
+     "item_avg": 0.3,
+     "items": []
+    },
+    {
+     "name": "Soraka",
+     "cost": 4,
+     "freq": 0.98,
+     "three_star_rate": 0.0,
+     "front": false,
+     "item_avg": 2.3,
+     "items": [
+      "Spear of Shojin"
+     ]
+    },
+    {
+     "name": "Yorick",
+     "cost": 1,
+     "freq": 0.95,
+     "three_star_rate": 0.0,
+     "front": true,
+     "item_avg": 0.1,
+     "items": []
+    },
+    {
+     "name": "Malphite",
+     "cost": 4,
+     "freq": 0.89,
+     "three_star_rate": 0.0,
+     "front": true,
+     "item_avg": 2.8,
+     "items": [
+      "Gargoyle Stoneplate",
+      "Warmogs Armor",
+      "Crownguard"
+     ]
+    },
+    {
+     "name": "Amumu",
+     "cost": 4,
+     "freq": 0.76,
+     "three_star_rate": 0.0,
+     "front": true,
+     "item_avg": 0.8,
+     "items": []
+    },
+    {
+     "name": "Kennen",
+     "cost": 5,
+     "freq": 0.55,
+     "three_star_rate": 0.0,
+     "front": false,
+     "item_avg": 2.3,
+     "items": [
+      "Thief's Gloves"
+     ]
+    }
+   ],
+   "early": [
+    {
+     "name": "Yunara",
+     "cost": 2,
+     "shares": [
+      "Executioner"
+     ],
+     "front": false,
+     "score": 3
+    },
+    {
+     "name": "Mama Beak",
+     "cost": 3,
+     "shares": [
+      "Summoner"
+     ],
+     "front": false,
+     "score": 3
+    },
+    {
+     "name": "Akali",
+     "cost": 1,
+     "shares": [
+      "Inferno"
+     ],
+     "front": false,
+     "score": 2
+    },
+    {
+     "name": "Rakan",
+     "cost": 1,
+     "shares": [
+      "Juggernaut"
+     ],
+     "front": true,
+     "score": 2
+    },
+    {
+     "name": "Rek'Sai",
+     "cost": 1,
+     "shares": [
+      "Blackthorn"
+     ],
+     "front": true,
+     "score": 2
+    },
+    {
+     "name": "Varus",
+     "cost": 1,
+     "shares": [
+      "Inferno"
+     ],
+     "front": false,
+     "score": 2
+    },
+    {
+     "name": "Veigar",
+     "cost": 1,
+     "shares": [
+      "Blackthorn"
+     ],
+     "front": false,
+     "score": 2
+    },
+    {
+     "name": "Scuttlecrab",
+     "cost": 2,
+     "shares": [
+      "Juggernaut"
+     ],
+     "front": true,
+     "score": 2
+    }
+   ]
+  },
+  {
+   "name": "Blossom + Invoker",
+   "games": 118,
+   "play_rate": 0.064,
+   "avg_place": 4.91,
+   "top4": 0.4,
+   "level": 8,
+   "strategy": "standard",
+   "traits": {
+    "Blossom": 3,
+    "Brawler": 2,
+    "Invoker": 3,
+    "Riftbeast": 3,
+    "Spellweaver": 2,
+    "Vanguard": 2,
+    "Emerald Aspect": 1
+   },
+   "units": [
+    {
+     "name": "Sett",
+     "cost": 4,
+     "freq": 1.0,
+     "three_star_rate": 0.01,
+     "front": true,
+     "item_avg": 2.2,
+     "items": [
+      "Gargoyle Stoneplate",
+      "Warmogs Armor"
+     ]
+    },
+    {
+     "name": "Sentinel",
+     "cost": 4,
+     "freq": 0.99,
+     "three_star_rate": 0.0,
+     "front": true,
+     "item_avg": 2.0,
+     "items": [
+      "Protector's Vow",
+      "Gargoyle Stoneplate"
+     ]
+    },
+    {
+     "name": "Ahri",
+     "cost": 4,
+     "freq": 0.98,
+     "three_star_rate": 0.01,
+     "front": false,
+     "item_avg": 3.0,
+     "items": [
+      "Jeweled Gauntlet",
+      "Striker's Flail",
+      "Spear of Shojin"
+     ]
+    },
+    {
+     "name": "Morgana",
+     "cost": 4,
+     "freq": 0.97,
+     "three_star_rate": 0.0,
+     "front": false,
+     "item_avg": 2.7,
+     "items": [
+      "Void Staff",
+      "Morellonomicon"
+     ]
+    },
+    {
+     "name": "Pebbles",
+     "cost": 1,
+     "freq": 0.92,
+     "three_star_rate": 0.02,
+     "front": false,
+     "item_avg": 0.1,
+     "items": []
+    },
+    {
+     "name": "Krug",
+     "cost": 3,
+     "freq": 0.89,
+     "three_star_rate": 0.0,
+     "front": true,
+     "item_avg": 0.4,
+     "items": []
+    },
+    {
+     "name": "Karma",
+     "cost": 1,
+     "freq": 0.76,
+     "three_star_rate": 0.03,
+     "front": false,
+     "item_avg": 0.3,
+     "items": []
+    },
+    {
+     "name": "Taric",
+     "cost": 5,
+     "freq": 0.52,
+     "three_star_rate": 0.0,
+     "front": false,
+     "item_avg": 0.8,
+     "items": []
+    },
+    {
+     "name": "Alune",
+     "cost": 5,
+     "freq": 0.25,
+     "three_star_rate": 0.0,
+     "front": false,
+     "item_avg": 1.4,
+     "items": []
+    }
+   ],
+   "early": [
+    {
+     "name": "Cinderling",
+     "cost": 1,
+     "shares": [
+      "Riftbeast"
+     ],
+     "front": false,
+     "score": 3
+    },
+    {
+     "name": "Yorick",
+     "cost": 1,
+     "shares": [
+      "Blossom"
+     ],
+     "front": true,
+     "score": 3
+    },
+    {
+     "name": "Gromp",
+     "cost": 2,
+     "shares": [
+      "Riftbeast"
+     ],
+     "front": false,
+     "score": 3
+    },
+    {
+     "name": "Murkwolf",
+     "cost": 2,
+     "shares": [
+      "Riftbeast"
+     ],
+     "front": false,
+     "score": 3
+    },
+    {
+     "name": "Scuttlecrab",
+     "cost": 2,
+     "shares": [
+      "Riftbeast"
+     ],
+     "front": true,
+     "score": 3
+    },
+    {
+     "name": "Teemo",
+     "cost": 2,
+     "shares": [
+      "Invoker"
+     ],
+     "front": false,
+     "score": 3
+    },
+    {
+     "name": "Yunara",
+     "cost": 2,
+     "shares": [
+      "Blossom"
+     ],
+     "front": false,
+     "score": 3
+    },
+    {
+     "name": "Kog'Maw",
+     "cost": 3,
+     "shares": [
+      "Invoker"
+     ],
+     "front": false,
+     "score": 3
+    }
+   ]
+  },
+  {
+   "name": "Summoner + Juggernaut",
+   "games": 97,
+   "play_rate": 0.052,
+   "avg_place": 4.94,
+   "top4": 0.39,
+   "level": 8,
+   "strategy": "standard",
+   "traits": {
+    "Primal": 2,
+    "Summoner": 2,
+    "Juggernaut": 6
+   },
+   "units": [
+    {
+     "name": "Yorick",
+     "cost": 1,
+     "freq": 1.0,
+     "three_star_rate": 0.01,
+     "front": true,
+     "item_avg": 0.0,
+     "items": []
+    },
+    {
+     "name": "Zyra",
+     "cost": 4,
+     "freq": 1.0,
+     "three_star_rate": 0.0,
+     "front": false,
+     "item_avg": 2.9,
+     "items": [
+      "Archangel's Staff",
+      "Hextech Gunblade",
+      "Spear of Shojin"
+     ]
+    },
+    {
+     "name": "Vi",
+     "cost": 3,
+     "freq": 0.96,
+     "three_star_rate": 0.0,
+     "front": true,
+     "item_avg": 1.6,
+     "items": [
+      "Warmogs Armor"
+     ]
+    },
+    {
+     "name": "Amumu",
+     "cost": 4,
+     "freq": 0.91,
+     "three_star_rate": 0.0,
+     "front": true,
+     "item_avg": 1.9,
+     "items": [
+      "Gargoyle Stoneplate",
+      "Warmogs Armor"
+     ]
+    },
+    {
+     "name": "Scuttlecrab",
+     "cost": 2,
+     "freq": 0.79,
+     "three_star_rate": 0.0,
+     "front": true,
+     "item_avg": 0.2,
+     "items": []
+    },
+    {
+     "name": "Maokai",
+     "cost": 5,
+     "freq": 0.68,
+     "three_star_rate": 0.0,
+     "front": true,
+     "item_avg": 1.7,
+     "items": [
+      "Warmogs Armor"
+     ]
+    },
+    {
+     "name": "Sejuani",
+     "cost": 2,
+     "freq": 0.66,
+     "three_star_rate": 0.02,
+     "front": false,
+     "item_avg": 0.4,
+     "items": []
+    },
+    {
+     "name": "Rakan",
+     "cost": 1,
+     "freq": 0.61,
+     "three_star_rate": 0.0,
+     "front": true,
+     "item_avg": 0.1,
+     "items": []
+    },
+    {
+     "name": "Sivir",
+     "cost": 4,
+     "freq": 0.41,
+     "three_star_rate": 0.0,
+     "front": false,
+     "item_avg": 2.4,
+     "items": [
+      "Red Buff",
+      "Infinity Edge",
+      "Last Whisper"
+     ]
+    },
+    {
+     "name": "Ivern",
+     "cost": 5,
+     "freq": 0.4,
+     "three_star_rate": 0.0,
+     "front": false,
+     "item_avg": 2.3,
+     "items": [
+      "Void Staff",
+      "Spear of Shojin",
+      "Archangel's Staff"
+     ]
+    },
+    {
+     "name": "Nidalee",
+     "cost": 4,
+     "freq": 0.26,
+     "three_star_rate": 0.0,
+     "front": false,
+     "item_avg": 2.2,
+     "items": [
+      "Jeweled Gauntlet",
+      "Guinsoo's Rageblade"
+     ]
+    }
+   ],
+   "early": [
+    {
+     "name": "Azir",
+     "cost": 3,
+     "shares": [
+      "Summoner"
+     ],
+     "front": false,
+     "score": 2
+    },
+    {
+     "name": "Mama Beak",
+     "cost": 3,
+     "shares": [
+      "Summoner"
+     ],
+     "front": false,
+     "score": 2
+    }
+   ]
+  },
+  {
+   "name": "Brawler + Elderwood",
+   "games": 32,
+   "play_rate": 0.017,
+   "avg_place": 4.97,
+   "top4": 0.38,
+   "level": 9,
+   "strategy": "standard",
+   "traits": {
+    "Brawler": 2,
+    "Elderwood": 4
+   },
+   "units": [
+    {
+     "name": "Alistar",
+     "cost": 2,
+     "freq": 0.88,
+     "three_star_rate": 0.07,
+     "front": true,
+     "item_avg": 0.8,
+     "items": []
+    },
+    {
+     "name": "Gnar",
+     "cost": 5,
+     "freq": 0.78,
+     "three_star_rate": 0.0,
+     "front": false,
+     "item_avg": 0.9,
+     "items": []
+    },
+    {
+     "name": "Ornn",
+     "cost": 1,
+     "freq": 0.62,
+     "three_star_rate": 0.3,
+     "front": true,
+     "item_avg": 0.8,
+     "items": []
+    },
+    {
+     "name": "Ezreal",
+     "cost": 4,
+     "freq": 0.62,
+     "three_star_rate": 0.0,
+     "front": false,
+     "item_avg": 2.0,
+     "items": [
+      "Spear of Shojin",
+      "Last Whisper",
+      "Deathblade"
+     ]
+    },
+    {
+     "name": "LeBlanc",
+     "cost": 2,
+     "freq": 0.56,
+     "three_star_rate": 0.17,
+     "front": false,
+     "item_avg": 1.2,
+     "items": []
+    },
+    {
+     "name": "Hecarim",
+     "cost": 3,
+     "freq": 0.44,
+     "three_star_rate": 0.0,
+     "front": true,
+     "item_avg": 1.6,
+     "items": [
+      "Warmogs Armor"
+     ]
+    },
+    {
+     "name": "Taric",
+     "cost": 5,
+     "freq": 0.41,
+     "three_star_rate": 0.0,
+     "front": true,
+     "item_avg": 1.2,
+     "items": []
+    },
+    {
+     "name": "Ivern",
+     "cost": 5,
+     "freq": 0.38,
+     "three_star_rate": 0.0,
+     "front": false,
+     "item_avg": 0.2,
+     "items": []
+    },
+    {
+     "name": "Maokai",
+     "cost": 5,
+     "freq": 0.31,
+     "three_star_rate": 0.0,
+     "front": true,
+     "item_avg": 2.4,
+     "items": [
+      "Gargoyle Stoneplate",
+      "Steadfast Heart"
+     ]
+    },
+    {
+     "name": "Kennen",
+     "cost": 5,
+     "freq": 0.31,
+     "three_star_rate": 0.0,
+     "front": false,
+     "item_avg": 2.0,
+     "items": [
+      "Striker's Flail"
+     ]
+    },
+    {
+     "name": "Xayah",
+     "cost": 1,
+     "freq": 0.28,
+     "three_star_rate": 0.0,
+     "front": false,
+     "item_avg": 0.0,
+     "items": []
+    },
+    {
+     "name": "Draven",
+     "cost": 5,
+     "freq": 0.28,
+     "three_star_rate": 0.0,
+     "front": false,
+     "item_avg": 2.8,
+     "items": [
+      "Guinsoo's Rageblade",
+      "Deathblade",
+      "Infinity Edge"
+     ]
+    },
+    {
+     "name": "Amumu",
+     "cost": 4,
+     "freq": 0.25,
+     "three_star_rate": 0.0,
+     "front": true,
+     "item_avg": 0.8,
+     "items": []
+    },
+    {
+     "name": "Lux",
+     "cost": 5,
+     "freq": 0.25,
+     "three_star_rate": 0.0,
+     "front": false,
+     "item_avg": 1.4,
+     "items": [
+      "Jeweled Gauntlet",
+      "Spear of Shojin"
+     ]
+    }
+   ],
+   "early": [
+    {
+     "name": "Xayah",
+     "cost": 1,
+     "shares": [
+      "Elderwood"
+     ],
+     "front": false,
+     "score": 4
+    },
+    {
+     "name": "Kobuko",
+     "cost": 1,
+     "shares": [
+      "Brawler"
+     ],
+     "front": true,
+     "score": 2
+    },
+    {
+     "name": "Rek'Sai",
+     "cost": 1,
+     "shares": [
+      "Brawler"
+     ],
+     "front": true,
+     "score": 2
+    },
+    {
+     "name": "Krug",
+     "cost": 3,
+     "shares": [
+      "Brawler"
+     ],
+     "front": true,
+     "score": 2
+    }
+   ]
+  },
+  {
+   "name": "Rapidfire + Riftbeast",
+   "games": 16,
+   "play_rate": 0.009,
+   "avg_place": 5,
+   "top4": 0.44,
+   "level": 8,
+   "strategy": "standard",
+   "traits": {
+    "Inferno": 2,
+    "Rapidfire": 5,
+    "Riftbeast": 3,
+    "Vanguard": 2,
+    "Juggernaut": 2,
+    "Fae": 2
+   },
+   "units": [
+    {
+     "name": "Brambleback",
+     "cost": 4,
+     "freq": 1.0,
+     "three_star_rate": 0.0,
+     "front": false,
+     "item_avg": 3.0,
+     "items": [
+      "Rapidfire Emblem",
+      "Quicksilver",
+      "Edge of Night"
+     ]
+    },
+    {
+     "name": "Aphelios",
+     "cost": 4,
+     "freq": 1.0,
+     "three_star_rate": 0.0,
+     "front": false,
+     "item_avg": 2.7,
+     "items": [
+      "Infinity Edge",
+      "Kraken's Fury",
+      "Last Whisper"
+     ]
+    },
+    {
+     "name": "Mama Beak",
+     "cost": 3,
+     "freq": 1.0,
+     "three_star_rate": 0.0,
+     "front": false,
+     "item_avg": 1.9,
+     "items": [
+      "Last Whisper",
+      "Red Buff",
+      "Hextech Gunblade"
+     ]
+    },
+    {
+     "name": "Varus",
+     "cost": 1,
+     "freq": 0.94,
+     "three_star_rate": 0.0,
+     "front": false,
+     "item_avg": 0.1,
+     "items": []
+    },
+    {
+     "name": "Xayah",
+     "cost": 1,
+     "freq": 0.88,
+     "three_star_rate": 0.0,
+     "front": false,
+     "item_avg": 0.0,
+     "items": []
+    },
+    {
+     "name": "Sentinel",
+     "cost": 4,
+     "freq": 0.88,
+     "three_star_rate": 0.0,
+     "front": true,
+     "item_avg": 1.8,
+     "items": [
+      "Protector's Vow",
+      "Spirit Visage"
+     ]
+    },
+    {
+     "name": "Amumu",
+     "cost": 4,
+     "freq": 0.81,
+     "three_star_rate": 0.0,
+     "front": true,
+     "item_avg": 2.2,
+     "items": [
+      "Warmogs Armor",
+      "Crownguard",
+      "Spirit Visage"
+     ]
+    },
+    {
+     "name": "Rakan",
+     "cost": 1,
+     "freq": 0.62,
+     "three_star_rate": 0.1,
+     "front": true,
+     "item_avg": 0.7,
+     "items": []
+    },
+    {
+     "name": "Diana",
+     "cost": 3,
+     "freq": 0.38,
+     "three_star_rate": 0.0,
+     "front": true,
+     "item_avg": 1.3,
+     "items": [
+      "Thief's Gloves"
+     ]
+    }
+   ],
+   "early": [
+    {
+     "name": "Kayle",
+     "cost": 2,
+     "shares": [
+      "Rapidfire"
+     ],
+     "front": false,
+     "score": 5
+    },
+    {
+     "name": "Scuttlecrab",
+     "cost": 2,
+     "shares": [
+      "Riftbeast",
+      "Juggernaut"
+     ],
+     "front": true,
+     "score": 5
+    },
+    {
+     "name": "Cinderling",
+     "cost": 1,
+     "shares": [
+      "Riftbeast"
+     ],
+     "front": false,
+     "score": 3
+    },
+    {
+     "name": "Pebbles",
+     "cost": 1,
+     "shares": [
+      "Riftbeast"
+     ],
+     "front": false,
+     "score": 3
+    },
+    {
+     "name": "Gromp",
+     "cost": 2,
+     "shares": [
+      "Riftbeast"
+     ],
+     "front": false,
+     "score": 3
+    },
+    {
+     "name": "Murkwolf",
+     "cost": 2,
+     "shares": [
+      "Riftbeast"
+     ],
+     "front": false,
+     "score": 3
+    },
+    {
+     "name": "Krug",
+     "cost": 3,
+     "shares": [
+      "Riftbeast"
+     ],
+     "front": true,
+     "score": 3
+    },
+    {
+     "name": "Akali",
+     "cost": 1,
+     "shares": [
+      "Inferno"
+     ],
+     "front": false,
+     "score": 2
+    }
+   ]
+  },
+  {
+   "name": "Invoker + Riftbeast",
+   "games": 20,
+   "play_rate": 0.011,
+   "avg_place": 5.3,
+   "top4": 0.4,
+   "level": 8,
+   "strategy": "standard",
+   "traits": {
+    "Invoker": 3,
+    "Riftbeast": 3,
+    "Brawler": 2,
+    "Vanguard": 2
+   },
+   "units": [
+    {
+     "name": "Sentinel",
+     "cost": 4,
+     "freq": 1.0,
+     "three_star_rate": 0.0,
+     "front": true,
+     "item_avg": 1.8,
+     "items": [
+      "Gargoyle Stoneplate"
+     ]
+    },
+    {
+     "name": "Pebbles",
+     "cost": 1,
+     "freq": 0.8,
+     "three_star_rate": 0.25,
+     "front": false,
+     "item_avg": 0.8,
+     "items": []
+    },
+    {
+     "name": "Krug",
+     "cost": 3,
+     "freq": 0.8,
+     "three_star_rate": 0.19,
+     "front": true,
+     "item_avg": 0.9,
+     "items": []
+    },
+    {
+     "name": "Morgana",
+     "cost": 4,
+     "freq": 0.65,
+     "three_star_rate": 0.0,
+     "front": false,
+     "item_avg": 2.1,
+     "items": [
+      "Void Staff",
+      "Morellonomicon",
+      "Red Buff"
+     ]
+    },
+    {
+     "name": "Kog'Maw",
+     "cost": 3,
+     "freq": 0.45,
+     "three_star_rate": 0.0,
+     "front": false,
+     "item_avg": 0.3,
+     "items": []
+    },
+    {
+     "name": "Sett",
+     "cost": 4,
+     "freq": 0.45,
+     "three_star_rate": 0.0,
+     "front": true,
+     "item_avg": 2.0,
+     "items": [
+      "Gargoyle Stoneplate",
+      "Spirit Visage",
+      "Sterak's Gage"
+     ]
+    },
+    {
+     "name": "Ahri",
+     "cost": 4,
+     "freq": 0.45,
+     "three_star_rate": 0.0,
+     "front": false,
+     "item_avg": 2.3,
+     "items": [
+      "Jeweled Gauntlet",
+      "Striker's Flail",
+      "Invoker Emblem"
+     ]
+    },
+    {
+     "name": "Scuttlecrab",
+     "cost": 2,
+     "freq": 0.4,
+     "three_star_rate": 0.38,
+     "front": true,
+     "item_avg": 0.8,
+     "items": [
+      "Giant's Belt"
+     ]
+    },
+    {
+     "name": "Brambleback",
+     "cost": 4,
+     "freq": 0.4,
+     "three_star_rate": 0.0,
+     "front": false,
+     "item_avg": 1.4,
+     "items": [
+      "Sterak's Gage",
+      "Edge of Night",
+      "Quicksilver"
+     ]
+    },
+    {
+     "name": "Alune",
+     "cost": 5,
+     "freq": 0.4,
+     "three_star_rate": 0.0,
+     "front": false,
+     "item_avg": 2.0,
+     "items": [
+      "Spear of Shojin",
+      "Jeweled Gauntlet"
+     ]
+    },
+    {
+     "name": "Diana",
+     "cost": 3,
+     "freq": 0.4,
+     "three_star_rate": 0.0,
+     "front": true,
+     "item_avg": 0.1,
+     "items": []
+    },
+    {
+     "name": "Murkwolf",
+     "cost": 2,
+     "freq": 0.25,
+     "three_star_rate": 0.2,
+     "front": false,
+     "item_avg": 0.6,
+     "items": []
+    },
+    {
+     "name": "Taric",
+     "cost": 5,
+     "freq": 0.25,
+     "three_star_rate": 0.0,
+     "front": true,
+     "item_avg": 0.0,
+     "items": []
+    }
+   ],
+   "early": [
+    {
+     "name": "Cinderling",
+     "cost": 1,
+     "shares": [
+      "Riftbeast"
+     ],
+     "front": false,
+     "score": 3
+    },
+    {
+     "name": "Gromp",
+     "cost": 2,
+     "shares": [
+      "Riftbeast"
+     ],
+     "front": false,
+     "score": 3
+    },
+    {
+     "name": "Murkwolf",
+     "cost": 2,
+     "shares": [
+      "Riftbeast"
+     ],
+     "front": false,
+     "score": 3
+    },
+    {
+     "name": "Teemo",
+     "cost": 2,
+     "shares": [
+      "Invoker"
+     ],
+     "front": false,
+     "score": 3
+    },
+    {
+     "name": "Mama Beak",
+     "cost": 3,
+     "shares": [
+      "Riftbeast"
+     ],
+     "front": false,
+     "score": 3
+    },
+    {
+     "name": "Kobuko",
+     "cost": 1,
+     "shares": [
+      "Brawler"
+     ],
+     "front": true,
+     "score": 2
+    },
+    {
+     "name": "Rakan",
+     "cost": 1,
+     "shares": [
+      "Vanguard"
+     ],
+     "front": true,
+     "score": 2
+    },
+    {
+     "name": "Rek'Sai",
+     "cost": 1,
+     "shares": [
+      "Brawler"
+     ],
+     "front": true,
+     "score": 2
+    }
+   ]
+  },
+  {
+   "name": "Sprykin + Flora Fatalis",
+   "games": 26,
+   "play_rate": 0.014,
+   "avg_place": 5.81,
+   "top4": 0.31,
+   "level": 7,
+   "strategy": "reroll3",
+   "traits": {
+    "Blackthorn": 2,
+    "Defender": 2,
+    "Executioner": 2,
+    "Spellweaver": 2,
+    "Sprykin": 3,
+    "Summoner": 2,
+    "Flora Fatalis": 2
+   },
+   "units": [
+    {
+     "name": "Veigar",
+     "cost": 1,
+     "freq": 1.0,
+     "three_star_rate": 0.0,
+     "front": false,
+     "item_avg": 0.0,
+     "items": []
+    },
+    {
+     "name": "Fiddlesticks",
+     "cost": 3,
+     "freq": 1.0,
+     "three_star_rate": 0.12,
+     "front": true,
+     "item_avg": 1.5,
+     "items": []
+    },
+    {
+     "name": "Rammus",
+     "cost": 3,
+     "freq": 1.0,
+     "three_star_rate": 0.65,
+     "front": true,
+     "item_avg": 2.8,
+     "items": [
+      "Gargoyle Stoneplate",
+      "Crownguard",
+      "Spirit Visage"
+     ]
+    },
+    {
+     "name": "Azir",
+     "cost": 3,
+     "freq": 0.96,
+     "three_star_rate": 0.64,
+     "front": false,
+     "item_avg": 3.0,
+     "items": [
+      "Hextech Gunblade",
+      "Guinsoo's Rageblade",
+      "Rabadon's Deathcap"
+     ]
+    },
+    {
+     "name": "Soraka",
+     "cost": 4,
+     "freq": 0.96,
+     "three_star_rate": 0.0,
+     "front": false,
+     "item_avg": 1.1,
+     "items": []
+    },
+    {
+     "name": "Teemo",
+     "cost": 2,
+     "freq": 0.88,
+     "three_star_rate": 0.17,
+     "front": false,
+     "item_avg": 0.3,
+     "items": []
+    },
+    {
+     "name": "Zyra",
+     "cost": 4,
+     "freq": 0.77,
+     "three_star_rate": 0.0,
+     "front": false,
+     "item_avg": 2.3,
+     "items": [
+      "Void Staff",
+      "Morellonomicon",
+      "Spear of Shojin"
+     ]
+    }
+   ],
+   "early": [
+    {
+     "name": "Kobuko",
+     "cost": 1,
+     "shares": [
+      "Sprykin"
+     ],
+     "front": true,
+     "score": 3
+    },
+    {
+     "name": "Tristana",
+     "cost": 3,
+     "shares": [
+      "Sprykin"
+     ],
+     "front": false,
+     "score": 3
+    },
+    {
+     "name": "Karma",
+     "cost": 1,
+     "shares": [
+      "Spellweaver"
+     ],
+     "front": false,
+     "score": 2
+    },
+    {
+     "name": "Leona",
+     "cost": 1,
+     "shares": [
+      "Defender"
+     ],
+     "front": true,
+     "score": 2
+    },
+    {
+     "name": "Ornn",
+     "cost": 1,
+     "shares": [
+      "Defender"
+     ],
+     "front": true,
+     "score": 2
+    },
+    {
+     "name": "Rek'Sai",
+     "cost": 1,
+     "shares": [
+      "Blackthorn"
+     ],
+     "front": true,
+     "score": 2
+    },
+    {
+     "name": "Yorick",
+     "cost": 1,
+     "shares": [
+      "Summoner"
+     ],
+     "front": true,
+     "score": 2
+    },
+    {
+     "name": "LeBlanc",
+     "cost": 2,
+     "shares": [
+      "Spellweaver"
+     ],
+     "front": false,
+     "score": 2
+    }
+   ]
+  }
+ ]
+}
